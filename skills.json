@@ -1,0 +1,90 @@
+[
+    {
+        "name": "Python",
+        "icon": "https://img.icons8.com/color/80/000000/python--v1.png"
+    },
+    {
+        "name": "Selenium",
+        "icon": "https://img.icons8.com/?size=80&id=38553&format=png"
+    },
+    {
+        "name": "Flask",
+        "icon": "https://img.icons8.com/?size=80&id=ewGOClUtmFX4&format=png"
+    },
+    {
+        "name": "HTML5",
+        "icon": "https://img.icons8.com/color/80/000000/html-5--v1.png"
+    },
+    {
+        "name": "CSS3",
+        "icon": "https://img.icons8.com/color/80/000000/css3.png"
+    },
+    {
+        "name": "Bootstrap",
+        "icon": "https://img.icons8.com/color/80/000000/bootstrap.png"
+    },
+    {
+        "name": "JavaScript",
+        "icon": "https://img.icons8.com/color/80/000000/javascript--v1.png"
+    },
+    {
+        "name": "jQuery",
+        "icon": "https://img.icons8.com/ios-filled/80/1169ae/jquery.png"
+    },
+    {
+        "name": "NodeJS",
+        "icon": "https://img.icons8.com/color/80/000000/nodejs.png"
+    },
+    {
+        "name": "ExpressJS",
+        "icon": "https://img.icons8.com/fluency/80/000000/node-js.png"
+    },
+    {
+        "name": "EJS",
+        "icon": "https://img.icons8.com/color/logos/80/ejs.png"
+    },
+    {
+        "name": "ReactJS",
+        "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/80/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png"
+    },
+    {
+        "name": "MySQL",
+        "icon": "https://img.icons8.com/color/80/000000/mysql-logo.png"
+    },
+    {
+        "name": "PostgreSQL",
+        "icon": "https://img.icons8.com/color/80/000000/postgreesql.png"
+    },
+    {
+        "name": "MongoDB",
+        "icon": "https://img.icons8.com/color/80/000000/mongodb.png"
+    },
+    {
+        "name": "Mongoose",
+        "icon": "https://img.icons8.com/?size=80&id=gKfcEStXI1Hm&format=png"
+    },
+    {
+        "name": "Git VCS",
+        "icon": "https://img.icons8.com/color/80/000000/git.png"
+    },
+    {
+        "name": "GitHub",
+        "icon": "https://img.icons8.com/glyph-neue/80/ffffff/github.png"
+    },
+    {
+        "name": "Heroku",
+        "icon": "https://img.icons8.com/color/80/000000/heroku.png"
+    },
+    {
+        "name": "Pandas",
+        "icon": "https://img.icons8.com/?size=80&id=xSkewUSqtErH&format=png"
+    },
+    {
+        "name": "Numpy",
+        "icon": "https://img.icons8.com/?size=80&id=aR9CXyMagKIS&format=png"
+    },
+    {
+        "name": "TensorFlow",
+        "icon": "https://img.icons8.com/?size=80&id=n3QRpDA7KZ7P&format=png"
+    }
+]
