@@ -1,90 +1,102 @@
 [
     {
         "name": "Python",
-        "icon": "https://img.icons8.com/color/80/000000/python--v1.png"
+        "icon": "https://img.icons8.com/color/100/000000/python--v1.png"
     },
     {
         "name": "Selenium",
-        "icon": "https://img.icons8.com/?size=80&id=38553&format=png"
+        "icon": "https://img.icons8.com/?size=100&id=38553&format=png"
+    },
+    {
+        "name": "Firebase",
+        "icon": "https://img.icons8.com/?size=100&id=87330&format=png&color=000000"
     },
     {
         "name": "Flask",
-        "icon": "https://img.icons8.com/?size=80&id=ewGOClUtmFX4&format=png"
+        "icon": "https://img.icons8.com/?size=100&id=ewGOClUtmFX4&format=png"
+    },
+    {
+        "name": "AI",
+        "icon": "https://img.icons8.com/?size=100&id=eoxMN35Z6JKg&format=png"
+    },
+    {
+        "name": "ML",
+        "icon": "https://img.icons8.com/?size=100&id=HK1XeFoN7Evh&format=png&color=000000"
     },
     {
         "name": "HTML5",
-        "icon": "https://img.icons8.com/color/80/000000/html-5--v1.png"
+        "icon": "https://img.icons8.com/color/100/000000/html-5--v1.png"
     },
     {
         "name": "CSS3",
-        "icon": "https://img.icons8.com/color/80/000000/css3.png"
+        "icon": "https://img.icons8.com/color/100/000000/css3.png"
     },
     {
         "name": "Bootstrap",
-        "icon": "https://img.icons8.com/color/80/000000/bootstrap.png"
+        "icon": "https://img.icons8.com/color/100/000000/bootstrap.png"
     },
     {
         "name": "JavaScript",
-        "icon": "https://img.icons8.com/color/80/000000/javascript--v1.png"
+        "icon": "https://img.icons8.com/color/100/000000/javascript--v1.png"
     },
     {
         "name": "jQuery",
-        "icon": "https://img.icons8.com/ios-filled/80/1169ae/jquery.png"
+        "icon": "https://img.icons8.com/ios-filled/100/1169ae/jquery.png"
     },
     {
         "name": "NodeJS",
-        "icon": "https://img.icons8.com/color/80/000000/nodejs.png"
+        "icon": "https://img.icons8.com/color/100/000000/nodejs.png"
     },
     {
         "name": "ExpressJS",
-        "icon": "https://img.icons8.com/fluency/80/000000/node-js.png"
+        "icon": "https://img.icons8.com/fluency/100/000000/node-js.png"
     },
     {
         "name": "EJS",
-        "icon": "https://img.icons8.com/color/logos/80/ejs.png"
+        "icon": "https://img.icons8.com/color/logos/100/ejs.png"
     },
     {
         "name": "ReactJS",
-        "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/80/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png"
+        "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/100/000000/external-react-a-javascript-library-for-building-user-interfaces-logo-color-tal-revivo.png"
     },
     {
         "name": "MySQL",
-        "icon": "https://img.icons8.com/color/80/000000/mysql-logo.png"
+        "icon": "https://img.icons8.com/color/100/000000/mysql-logo.png"
     },
     {
         "name": "PostgreSQL",
-        "icon": "https://img.icons8.com/color/80/000000/postgreesql.png"
+        "icon": "https://img.icons8.com/color/100/000000/postgreesql.png"
     },
     {
         "name": "MongoDB",
-        "icon": "https://img.icons8.com/color/80/000000/mongodb.png"
+        "icon": "https://img.icons8.com/color/100/000000/mongodb.png"
     },
     {
         "name": "Mongoose",
-        "icon": "https://img.icons8.com/?size=80&id=gKfcEStXI1Hm&format=png"
+        "icon": "https://img.icons8.com/?size=100&id=gKfcEStXI1Hm&format=png"
     },
     {
         "name": "Git VCS",
-        "icon": "https://img.icons8.com/color/80/000000/git.png"
+        "icon": "https://img.icons8.com/color/100/000000/git.png"
     },
     {
         "name": "GitHub",
-        "icon": "https://img.icons8.com/glyph-neue/80/ffffff/github.png"
+        "icon": "https://img.icons8.com/glyph-neue/100/ffffff/github.png"
     },
     {
         "name": "Heroku",
-        "icon": "https://img.icons8.com/color/80/000000/heroku.png"
+        "icon": "https://img.icons8.com/color/100/000000/heroku.png"
     },
     {
         "name": "Pandas",
-        "icon": "https://img.icons8.com/?size=80&id=xSkewUSqtErH&format=png"
+        "icon": "https://img.icons8.com/?size=100&id=xSkewUSqtErH&format=png"
     },
     {
         "name": "Numpy",
-        "icon": "https://img.icons8.com/?size=80&id=aR9CXyMagKIS&format=png"
+        "icon": "https://img.icons8.com/?size=100&id=aR9CXyMagKIS&format=png"
     },
     {
         "name": "TensorFlow",
-        "icon": "https://img.icons8.com/?size=80&id=n3QRpDA7KZ7P&format=png"
+        "icon": "https://img.icons8.com/?size=100&id=n3QRpDA7KZ7P&format=png"
     }
 ]
