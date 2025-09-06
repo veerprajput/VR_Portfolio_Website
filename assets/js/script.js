@@ -29,19 +29,23 @@ $(document).ready(function () {
         });
     });
 
+    let viewportHeight = window.innerHeight; // Get viewport height in pixels
+    let offsetToSubtract = viewportHeight * 0.05; // Calculate 10vh in pixels
+
+
     // smooth scrolling
     $('a[href*="#"]').on('click', function (e) {
         e.preventDefault();
         $('html, body').animate({
-            scrollTop: $($(this).attr('href')).offset().top,
+            scrollTop: $($(this).attr('href')).offset().top - offsetToSubtract,
         }, 500, 'linear')
     });
 
     // <!-- emailjs to mail contact form data -->
     $("#contact-form").submit(function (event) {
-        emailjs.init("mqIsMlddnqyLruxg3");
+        emailjs.init("6Chk7lLx40MfMnrj3");
 
-        emailjs.sendForm('service_d8sycpx', 'template_qry82k7', '#contact-form')
+        emailjs.sendForm('service_2n35dlb', 'template_zfazrku', '#contact-form')
             .then(function (response) {
                 console.log('SUCCESS!', response.status, response.text);
                 document.getElementById("contact-form").reset();
@@ -71,7 +75,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["frontend development", "backend development", "web designing", "android development", "web development"],
+    strings: ["AI / Machine Learning", "Data Science", "Full-Stack Development", "Web Design"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
@@ -79,12 +83,29 @@ var typed = new Typed(".typing-text", {
 });
 // <!-- typed js effect ends -->
 
+// Function to handle scroll animations for the About section
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '80px',
+    duration: 2000,
+    reset: true // Animations repeat on scroll up
+});
+
+// Animate the main "About Me" heading
+sr.reveal('.about .heading', {}); 
+
+// Animate the content row
+sr.reveal('.about .row', {
+    origin: 'bottom',
+    delay: 200 // Add a small delay so it animates after the heading
+});
+
 async function fetchData(type="skills") {
     let response
     type === "skills" ?
         response = await fetch("../../skills.json")
         :
-        response = await fetch("../../projects.json")
+        response = await fetch("../../projects/projects.json")
     const data = await response.json();
     return data;
 }
@@ -105,13 +126,21 @@ function showSkills(skills) {
     skillsContainer.innerHTML = skillHTML;
 }
 
+function getProjects() {
+    return fetch("../../projects.json")
+        .then(response => response.json())
+        .then(data => {
+            return data
+        });
+}
+
 function showProjects(projects) {
     let projectsContainer = document.querySelector("#work .box-container");
     let projectHTML = "";
-    projects.slice(0, 10).filter(project => project.category != "android").forEach(project => {
+    projects.filter(project => project.category.includes("main")).forEach(project => {
         projectHTML += `
         <div class="box tilt">
-      <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
+      <img draggable="false" src="../../assets/images/projects/${project.image}.${project.file_type}" alt="project" />
       <div class="content">
         <div class="tag">
         <h3>${project.name}</h3>
@@ -147,10 +176,118 @@ function showProjects(projects) {
 
 }
 
+function getCertifications() {
+    return fetch("../../certifications.json")
+        .then(response => response.json())
+        .then(data => {
+            return data
+        });
+}
+
+function showCertifications(certifications) {
+    let CertificationContainer = document.querySelector("#certifications .box-container");
+    let certificationHTML = "";
+    certifications.filter(certification => certification.category.includes("main")).forEach(certification => {
+        certificationHTML += `
+    <div class="box tilt">
+        <img draggable="false" src="assets/images/certifications/${certification.image}.${certification.file_type}" alt="" />
+        <div class="content">
+        <div class="tag">
+        <h3>${certification.name}</h3>
+        </div>
+            <div class="desc">
+                <p>${certification.desc}</p>
+                <div style="margin-left: auto; margin-right: auto;" class="btns">
+                <a style="margin-left: auto; margin-right: auto;" href="${certification.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+            </div>
+        </div>
+      </div>
+    </div>
+    `
+    });
+    CertificationContainer.innerHTML = certificationHTML;
+
+    // <!-- tilt js effect starts -->
+    VanillaTilt.init(document.querySelectorAll(".tilt"), {
+        max: 15,
+    });
+    // <!-- tilt js effect ends -->
+
+    /* ===== SCROLL REVEAL ANIMATION ===== */
+    const srtop = ScrollReveal({
+        origin: 'top',
+        distance: '80px',
+        duration: 1000,
+        reset: true
+    });
+
+    /* SCROLL PROJECTS */
+    srtop.reveal('.work .box', { interval: 200 });
+
+}
+
+function getExperience() {
+    return fetch("../../experience.json")
+        .then(response => response.json())
+        .then(data => {
+            return data
+        });
+}
+
+function showExperience(experience) {
+    let ExperienceContainer = document.querySelector("#experience .timeline");
+    let experienceHTML = "";
+    experience.filter(experience => experience.category.includes("main")).forEach(experience => {
+        experienceHTML += `
+    <div class="container ${experience.side1}">
+        <div class="content">
+            <div class="tag">
+                <h2>${experience.name}</h2>
+            </div>
+            <div class="desc">
+                <h3>${experience.desc}</h3>
+                <p>${experience.date}</p>
+            </div>
+        </div>
+    </div>
+    `
+    });
+    ExperienceContainer.innerHTML = experienceHTML;
+
+    // <!-- tilt js effect starts -->
+    VanillaTilt.init(document.querySelectorAll(".tilt"), {
+        max: 15,
+    });
+    // <!-- tilt js effect ends -->
+
+    /* ===== SCROLL REVEAL ANIMATION ===== */
+    const srtop = ScrollReveal({
+        origin: 'top',
+        distance: '80px',
+        duration: 1000,
+        reset: true
+    });
+
+    /* SCROLL PROJECTS */
+    srtop.reveal('.work .box', { interval: 200 });
+
+}
+
 fetchData().then(data => {
     showSkills(data);
 });
 
+getProjects().then(data => {
+    showProjects(data);
+});
+
+getCertifications().then(data => {
+    showCertifications(data);
+});
+
+getExperience().then(data => {
+    showExperience(data);
+});
 // fetchData("projects").then(data => {
 //     showProjects(data);
 // });

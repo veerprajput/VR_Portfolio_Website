@@ -1,11 +1,27 @@
 [
     {
+        "name": "AI",
+        "icon": "https://img.icons8.com/?size=100&id=eoxMN35Z6JKg&format=png"
+    },
+    {
+        "name": "ML",
+        "icon": "https://img.icons8.com/?size=100&id=HK1XeFoN7Evh&format=png&color=000000"
+    },
+    {
         "name": "Python",
         "icon": "https://img.icons8.com/color/100/000000/python--v1.png"
     },
     {
-        "name": "Selenium",
-        "icon": "https://img.icons8.com/?size=100&id=38553&format=png"
+        "name": "TensorFlow",
+        "icon": "https://img.icons8.com/?size=100&id=n3QRpDA7KZ7P&format=png"
+    },
+    {
+        "name": "Pandas",
+        "icon": "https://img.icons8.com/?size=100&id=xSkewUSqtErH&format=png"
+    },
+    {
+        "name": "Numpy",
+        "icon": "https://img.icons8.com/?size=100&id=aR9CXyMagKIS&format=png"
     },
     {
         "name": "Firebase",
@@ -14,14 +30,6 @@
     {
         "name": "Flask",
         "icon": "https://img.icons8.com/?size=100&id=ewGOClUtmFX4&format=png"
-    },
-    {
-        "name": "AI",
-        "icon": "https://img.icons8.com/?size=100&id=eoxMN35Z6JKg&format=png"
-    },
-    {
-        "name": "ML",
-        "icon": "https://img.icons8.com/?size=100&id=HK1XeFoN7Evh&format=png&color=000000"
     },
     {
         "name": "HTML5",
@@ -38,6 +46,10 @@
     {
         "name": "JavaScript",
         "icon": "https://img.icons8.com/color/100/000000/javascript--v1.png"
+    },
+    {
+        "name": "Selenium",
+        "icon": "https://img.icons8.com/?size=100&id=38553&format=png"
     },
     {
         "name": "jQuery",
@@ -88,15 +100,7 @@
         "icon": "https://img.icons8.com/color/100/000000/heroku.png"
     },
     {
-        "name": "Pandas",
-        "icon": "https://img.icons8.com/?size=100&id=xSkewUSqtErH&format=png"
-    },
-    {
-        "name": "Numpy",
-        "icon": "https://img.icons8.com/?size=100&id=aR9CXyMagKIS&format=png"
-    },
-    {
-        "name": "TensorFlow",
-        "icon": "https://img.icons8.com/?size=100&id=n3QRpDA7KZ7P&format=png"
+        "name": "Cloud Firebase",
+        "icon": "https://img.icons8.com/?size=100&id=x22BXJ8IEoLJ&format=png&color=000000"
     }
 ]

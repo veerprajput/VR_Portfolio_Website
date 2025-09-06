@@ -1,0 +1,182 @@
+[
+    {
+    "name": "AI Hackathon Certification",
+    "desc": "The Most Socially Impactful Junior Project at a Global AI Hackathon",
+    "image": "FutureHacks Certification",
+    "category": "main competitions programming",
+    "file_type": "png",
+    "links": {
+        "view": "https://github.com/veerprajput/VR_Portfolio_Website/blob/6813526a0773237499c5f2e7b0ef0b9ccfb77aa9/assets/images/certifications/FutureHacks7%20Certificate.png"
+        }
+    },
+    {
+        "name": "AI / Machine Learning Course",
+        "desc": "A course covering Artificial Intelligence and Machine Learning Concepts like LLMs and Deep Learning",
+        "image": "AI_Machine_Learning_Certification",
+        "category": "main programming",
+        "file_type": "png",
+        "links": {
+            "view": "https://github.com/veerprajput/VR_Portfolio_Website/blob/acedb6026bdb5c94046de5c82aafe93ce7e5cded/assets/images/certifications/AI%20Machine%20Learning%20Certificate%20Jpeg.jpg"
+            }
+    },
+    {
+        "name": "Python Pro Bootcamp",
+        "desc": "An in depth course detailing every aspect of the Python Programming Language",
+        "image": "Python_Certification_Thumbnail",
+        "category": "main programming",
+        "file_type": "png",
+        "links": {
+            "view": "https://github.com/veerprajput/VR_Portfolio_Website/blob/acedb6026bdb5c94046de5c82aafe93ce7e5cded/assets/images/certifications/Veer%20Python%20Code%20Completion%20Certificate.jpg"
+            }
+    },
+    {
+        "name": "Web Development Course",
+        "desc": "An all encompassing course covering all aspects of the art of Web Development",
+        "image": "Web_Development_Certification",
+        "category": "main programming",
+        "file_type": "png",
+        "links": {
+            "view": "https://github.com/veerprajput/VR_Portfolio_Website/blob/6813526a0773237499c5f2e7b0ef0b9ccfb77aa9/assets/images/certifications/FutureHacks7%20Certificate.png"
+            }
+    },
+    {
+        "name": "JavaScript Course",
+        "desc": "A detailed course on the programming language of JavaScript.",
+        "image": "Javascript_Certification",
+        "category": "main programming",
+        "file_type": "png",
+        "links": {
+            "view": "https://github.com/veerprajput/VR_Portfolio_Website/blob/acedb6026bdb5c94046de5c82aafe93ce7e5cded/assets/images/certifications/JavaScript%20Course%20Completion.jpg"
+            }
+    },
+    {
+        "name": "Machine Learning Bootcamp",
+        "desc": "A multi-day bootcamp on the topic of Machine Learning.",
+        "image": "Machine_Learning",
+        "category": "main programming",
+        "file_type": "png",
+        "links": {
+            "view": "https://github.com/veerprajput/VR_Portfolio_Website/blob/5f101ac445b3a962630d6da76e287a95b108ad58/assets/images/certifications/Harvard%20CS50%207x5%20Certificate.png"
+            }
+    },
+    {
+        "name": "Harvard CS50 Course",
+        "desc": "This is CS50, Harvard University's introduction to the intellectual enterprises of computer science and the art of programming.",
+        "image": "Harvard_CS50_Certification",
+        "category": "main programming",
+        "file_type": "png",
+        "links": {
+            "view": "https://github.com/veerprajput/VR_Portfolio_Website/blob/6813526a0773237499c5f2e7b0ef0b9ccfb77aa9/assets/images/certifications/Machine_Learning_Bootcamp.jpg"
+            }
+    },
+    {
+        "name": "Robotics Champion",
+        "desc": "Champion of a Robotics Competition.",
+        "image": "Robotics_Competition_Champion",
+        "category": "main misc competitions",
+        "file_type": "png",
+        "links": {
+            "view": "https://github.com/veerprajput/VR_Portfolio_Website/blob/21339ebee48237020d64c94e57c7b05b74e7766f/assets/images/certifications/Rancho%20Robotics.png"
+            }
+    },
+    {
+        "name": "Machine Learning Course",
+        "desc": "A course on Machine Learning.",
+        "image": "Machine_Learning_Udemy_Course",
+        "category": "main programming",
+        "file_type": "png",
+        "links": {
+            "view": "https://github.com/veerprajput/VR_Portfolio_Website/blob/21339ebee48237020d64c94e57c7b05b74e7766f/assets/images/certifications/Machine_Learning_Course_Completition_1_1_2021.jpg"
+            }
+    },
+    {
+        "name": "Microsoft Word Course",
+        "desc": "A detailed course on Microsoft Word",
+        "image": "Word_Certification",
+        "category": "main microsoft-courses",
+        "file_type": "png",
+        "links": {
+            "view": "https://github.com/veerprajput/VR_Portfolio_Website/blob/21339ebee48237020d64c94e57c7b05b74e7766f/assets/images/certifications/Word_Course_Completion_20_July_2021.jpg"
+            }
+    },
+    {
+        "name": "Microsoft Excel Course",
+        "desc": "A detailed course on Microsoft Excel",
+        "image": "Excel_Certification",
+        "category": "main microsoft-courses",
+        "file_type": "png",
+        "links": {
+            "view": "https://github.com/veerprajput/VR_Portfolio_Website/blob/21339ebee48237020d64c94e57c7b05b74e7766f/assets/images/certifications/Excel_Course_Completion_10_June_2021.jpg"
+            }
+    },
+    {
+        "name": "Hour Of Code",
+        "desc": "A course on the basic concepts of Computer Science",
+        "image": "Code.Org",
+        "category": "main programming",
+        "file_type": "png",
+        "links": {
+            "view": "https://github.com/veerprajput/VR_Portfolio_Website/blob/21339ebee48237020d64c94e57c7b05b74e7766f/assets/images/certifications/code.org.png"
+            }
+    },
+    {
+        "name": "Speech Program Participant",
+        "desc": "A Speech / Debate Tournament",
+        "image": "Speech_Competition",
+        "category": "main misc competitions",
+        "file_type": "png",
+        "links": {
+            "view": "https://github.com/veerprajput/VR_Portfolio_Website/blob/21339ebee48237020d64c94e57c7b05b74e7766f/assets/images/certifications/Speech_Debate.png"
+            }
+    },
+    {
+        "name": "Academic Award",
+        "desc": "An Academic Achievement Award",
+        "image": "Veer_Academics_Award",
+        "category": "main misc",
+        "file_type": "png",
+        "links": {
+            "view": "https://github.com/veerprajput/VR_Portfolio_Website/blob/5f101ac445b3a962630d6da76e287a95b108ad58/assets/images/certifications/Veer%20AA%20Award.jpg"
+            }
+    },
+    {
+        "name": "Scratch Programming Course",
+        "desc": "A detailed course on basics of programming with Scratch.",
+        "image": "Scratch_Certification",
+        "category": "main programming",
+        "file_type": "png",
+        "links": {
+            "view": "https://github.com/veerprajput/VR_Portfolio_Website/blob/21339ebee48237020d64c94e57c7b05b74e7766f/assets/images/certifications/Scratch.png"
+            }
+    },
+    {
+        "name": "Minecraft Hour of Code",
+        "desc": "A course on the basics of computer science",
+        "image": "Minecraft_Certification",
+        "category": "main programming",
+        "file_type": "png",
+        "links": {
+            "view": "https://github.com/veerprajput/VR_Portfolio_Website/blob/21339ebee48237020d64c94e57c7b05b74e7766f/assets/images/certifications/Veer%20MineCraft%20Certificate.jpg"
+            }
+    },
+    {
+        "name": "Aeromodelling Course",
+        "desc": "Coursework on Aeromodelling",
+        "image": "Aeromodelling  Certification",
+        "category": "main misc",
+        "file_type": "png",
+        "links": {
+            "view": "https://github.com/veerprajput/VR_Portfolio_Website/blob/21339ebee48237020d64c94e57c7b05b74e7766f/assets/images/certifications/Aeromodelling.png"
+            }
+    },
+    {
+        "name": "Vedic Math Course",
+        "desc": "A detailed course on the art of Vedic Maths",
+        "image": "Vedic_Math_Certification",
+        "category": "main misc",
+        "file_type": "png",
+        "links": {
+            "view": "https://github.com/veerprajput/VR_Portfolio_Website/blob/21339ebee48237020d64c94e57c7b05b74e7766f/assets/images/certifications/Vedic_Math.png"
+            }
+    }
+]

@@ -20,7 +20,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Projects | Portfolio Jigar Sable";
+            document.title = "Projects | Portfolio Veer Rajput";
             $("#favicon").attr("href", "/assets/images/favicon.png");
         }
         else {
@@ -32,7 +32,7 @@ document.addEventListener('visibilitychange',
 
 // fetch projects start
 function getProjects() {
-    return fetch("projects.json")
+    return fetch("../projects.json")
         .then(response => response.json())
         .then(data => {
             return data
@@ -43,11 +43,12 @@ function getProjects() {
 function showProjects(projects) {
     let projectsContainer = document.querySelector(".work .box-container");
     let projectsHTML = "";
+    console.log("hello world")
     projects.forEach(project => {
         projectsHTML += `
         <div class="grid-item ${project.category}">
         <div class="box tilt" style="width: 380px; margin: 1rem">
-      <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
+      <img draggable="false" src="../assets/images/projects/${project.image}.${project.file_type}" alt="project" />
       <div class="content">
         <div class="tag">
         <h3>${project.name}</h3>

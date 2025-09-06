@@ -212,7 +212,7 @@ header .navbar ul li a:hover {
   z-index: 1;
 }
 .home .image img {
-  width: 70%;
+  width: 60%;
   margin-left: 6rem;
   border-radius: 50%;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
@@ -346,117 +346,272 @@ header .navbar ul li a:hover {
 
 /* about section starts */
 .about {
-  background: rgb(255, 255, 255);
+  background: #f7f7f7;
+  padding: 2rem 2rem 8rem 2rem;
 }
+
+.about .heading {
+  margin-bottom: 7rem;
+}
+
 .about .row {
   display: flex;
-  flex-direction: row;
-  gap: 2rem;
-  flex-wrap: wrap;
-  padding: 4rem;
+  align-items: stretch;
+  justify-content: center;
+  gap: 12rem;
+  max-width: 1200px; 
+  width: 100%;
+  margin: 0 auto;
 }
+
 .about .row .image {
-  text-align: center;
-  flex: 1 1 35rem;
-}
-.about .row .image img {
-  margin: 4rem;
-  width: 30rem;
-  height: auto;
-  border-radius: 5%;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
-  mix-blend-mode: luminosity;
-  transition: 0.3s;
-  cursor: pointer;
-}
-.about .row .image img:hover {
-  mix-blend-mode: normal;
-}
-.about .row .content {
-  flex: 1 1 45rem;
-  padding: 3rem;
-}
-.about .row .content h3 {
-  color: rgb(27, 27, 27);
-  font-size: 2.5rem;
-}
-.about .row .content .tag {
-  font-size: 1.4rem;
-  color: #020133;
-  font-weight: 600;
-  margin-top: 1rem;
-}
-.about .row .content p {
-  font-size: 1.5rem;
-  margin-top: 1.5rem;
-  font-family: "Nunito";
-  font-weight: 600;
-  text-transform: none;
-}
-.about .row .content .box-container {
+  flex-basis: 32rem;
+  flex-shrink: 0;
   display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  font-family: "Nunito";
+  align-items: center;
+}
+
+.about .row .image img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.about .row .image img:hover {
+  transform: scale(1.04);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+  filter: grayscale(100%);
+}
+
+.about .row .content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.about .row .content h3 {
+  color: #0e2431;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.about .row .content .tag {
+  font-size: 1.8rem;
+  color: #011aff;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.about .row .content > p {
+  font-size: 1.6rem;
+  font-family: "Nunito", sans-serif;
+  text-transform: none;
+  line-height: 1.8;
+  color: #444;
+  flex-grow: 1;
+  text-align: justify;
+  text-align-last: left;
+  hyphens: auto;
+}
+
+/* Wrapper for contact info and resume button */
+.about .contact-resume-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* KEY CHANGE: Increased space between contact info block and button */
+  gap: 3.5rem; /* Was 2.5rem */
+  margin-top: 2rem;
+}
+
+/* The contact info block */
+.about .contact-info {
+  display: flex;
+  flex-direction: column;
+  /* KEY CHANGE: Increased space between email and location */
+  gap: 2rem; /* Was 1.5rem */
+  font-family: "Nunito", sans-serif;
   font-weight: 600;
 }
-.about .row .content .box-container .box p {
+
+.about .contact-info p {
+  font-size: 1.5rem;
+  color: #333;
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
   text-transform: none;
 }
-.about .row .content .box-container .box p span {
+
+.about .contact-info p i {
   color: #011aff;
+  font-size: 2rem;
 }
+
+/* The Resume Button */
 .resumebtn {
-  margin-top: 6rem;
+  margin: 0;
 }
+
 .resumebtn .btn {
-  padding: 1.7rem 3rem;
-  border-radius: 0.5em;
-  transition: 0.3s;
+  padding: 1.5rem 3.5rem;
+  border-radius: 50px;
+  transition: all 0.3s ease;
   color: #fff;
   background: #2506ad;
-  box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
-  font-family: "Nunito", sans-serif;
+  box-shadow: 0px 5px 15px rgba(48, 68, 247, 0.4);
+  display: inline-block;
 }
+
 .resumebtn .btn span {
-  font-weight: 600;
-  font-size: 1.8rem;
-  letter-spacing: 0.1rem;
+  font-weight: 700;
+  font-size: 1.6rem;
 }
+
 .resumebtn .btn i {
-  margin-left: 0.3rem;
-  font-size: 1.2rem;
+  margin-left: 0.5rem;
   transition: 0.3s;
 }
+
 .resumebtn .btn:hover {
   background: #1a047e;
+  box-shadow: 0px 8px 20px rgba(48, 68, 247, 0.6);
+  transform: translateY(-3px);
 }
-.resumebtn .btn:hover i {
-  transform: translateX(5px);
-}
-/* about media queries starts*/
-@media screen and (max-width: 600px) {
-  .about .row .image {
-    margin-top: 2rem;
-  }
-  .about .row .image img {
-    margin: 0 auto;
-    width: 80%;
-    mix-blend-mode: normal;
-  }
+
+/* --- Responsive Media Queries --- */
+@media screen and (max-width: 992px) {
   .about .row {
-    padding: 0.5rem;
-    margin-bottom: 7rem;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 3rem;
   }
-  .about .row .content {
-    padding: 1rem;
+  .about .row .image {
+    flex-basis: auto;
+    width: 25rem;
   }
-  .about .row .content .box-container {
-    gap: 0;
+  .about .row .content > p {
+    flex-grow: 0;
+    margin-bottom: 3rem;
+    text-align: center; /* Adjust for centered layout on mobile */
+  }
+  .about .contact-resume-wrapper {
+    align-items: center;
   }
 }
-/* about media queries ends*/
+
+@media screen and (max-width: 600px) {
+  .about {
+    padding: 2rem 2rem 6rem 2rem;
+  }
+  .about .row .image {
+    width: 60%;
+    max-width: 22rem;
+  }
+  .about .row .content h3 {
+    font-size: 3.2rem;
+  }
+}
 /* about section ends */
+
+/* --- Background Icons for About Section --- */
+.about {
+  position: relative;
+  overflow: hidden;
+}
+
+.background-icons {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.background-icons > * {
+  position: absolute;
+  opacity: 0.5;
+  user-select: none;
+}
+
+.background-icons i {
+  color: #e0e0e0;
+  font-size: 12rem;
+}
+
+/* --- ICON POSITIONS & UNIQUE ANIMATIONS --- */
+.background-icons .fa-python {
+  top: 35%;
+  left: 15%;
+  font-size: 14rem;
+  animation: float1 22s infinite ease-in-out;
+}
+.background-icons .fa-react {
+  top: 10%;
+  right: 40%;
+  font-size: 15rem;
+  animation: float2 18s infinite ease-in-out;
+}
+.background-icons .fa-brain {
+  bottom: 30%;
+  right: 30%;
+  font-size: 10rem;
+  animation: float3 25s infinite ease-in-out;
+}
+.background-icons .fa-html5 {
+  bottom: 15%;
+  left: 10%;
+  font-size: 11rem;
+  animation: float2 20s infinite ease-in-out;
+}
+.background-icons .fa-node-js {
+  bottom: 10%;
+  right: 5%;
+  animation: float1 19s infinite ease-in-out;
+}
+.background-icons .fa-css3-alt {
+  top: 20%;
+  right: 8%;
+  font-size: 13rem;
+  animation: float3 24s infinite ease-in-out;
+}
+.background-icons .fa-laptop-code {
+  bottom: 25%;
+  left: 30%;
+  font-size: 11rem;
+  animation: float2 17s infinite ease-in-out;
+}
+.background-icons .fa-database {
+  top: 10%;
+  left: 4%;
+  font-size: 10rem;
+  animation: float1 21s infinite ease-in-out;
+}
+
+/* --- KEYFRAME ANIMATIONS --- */
+@keyframes float1 {
+  0% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-30px) rotate(8deg); }
+  100% { transform: translateY(0px) rotate(0deg); }
+}
+@keyframes float2 {
+  0% { transform: translate(0, 0) rotate(0deg); }
+  50% { transform: translate(-25px, -35px) rotate(-10deg); }
+  100% { transform: translate(0, 0) rotate(0deg); }
+}
+@keyframes float3 {
+  0% { transform: translate(0, 0) rotate(-5deg); }
+  25% { transform: translate(20px, -25px) rotate(10deg); }
+  50% { transform: translate(-15px, -10px) rotate(-5deg); }
+  75% { transform: translate(10px, 15px) rotate(15deg); }
+  100% { transform: translate(0, 0) rotate(-5deg); }
+}
 
 /* skills section starts */
 .skills {

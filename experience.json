@@ -1,0 +1,154 @@
+[
+    {
+        "name": "17th Top Speaker in National Level Varsity Debate (MSPDP) Championship",
+        "desc": "Debate Competitor | Competition",
+        "category": "",
+        "date": "April 2025",
+        "side1": "left",
+        "side2": "left"
+    },
+    {
+    "name": "Best Societal Impact Award in Futurehacks 7 Global Hackathon",
+    "desc": "AI Application Developer | Competition",
+    "category": "main",
+    "date": "April 2025",
+    "side1": "left",
+    "side2": "right"
+    },
+    {
+        "name": "10th Top Speaker in Varsity Level Debate (MSPDP) Tournament",
+        "desc": "Debate Competitor | Competition",
+        "category": "",
+        "date": "March 2025",
+        "side1": "left",
+        "side2": "left"
+    },
+    {
+        "name": "3rd Top Speaker in Novice Level Debate (MSPDP) Tournament",
+        "desc": "Debate Competitor | Competition",
+        "category": "",
+        "date": "December 2024",
+        "side1": "left",
+        "side2": "right"
+    },
+    {
+        "name": "Artificial Intelligence (AI) / Machine Learning (ML) Course",
+        "desc": "AI Developer | Certification",
+        "category": "main",
+        "date": "November 2024",
+        "side1": "right",
+        "side2": "left"
+    },
+    {
+        "name": "High School Level Robotics Competition Champion",
+        "desc": "Robotics Competitor | Competition",
+        "category": "",
+        "date": "May 2024",
+        "side1": "right",
+        "side2": "right"
+    },
+    {
+        "name": "Area Wide Math Bowl Champion",
+        "desc": "Mathematics Competition | Competition",
+        "category": "",
+        "date": "April 2024",
+        "side1": "right",
+        "side2": "left"
+    },
+    {
+        "name": "Artificial Intelligence Bootcamp Participant",
+        "desc": "AI Developer | Bootcamp",
+        "category": "main",
+        "date": "October 2023",
+        "side1": "left",
+        "side2": "right"
+    },
+    {
+        "name": "Harvard CS50 Course",
+        "desc": "Full-Stack Developer | Certification",
+        "category": "main",
+        "date": "July 2023",
+        "side1": "right",
+        "side2": "left"
+    },
+    {
+        "name": "Middle School Level Robotics Competition Runner Up",
+        "desc": "Robotics Competitor | Competition",
+        "category": "",
+        "date": "May 2023",
+        "side1": "left",
+        "side2": "right"
+    },
+    {
+        "name": "District Wide Math Bowl Champion",
+        "desc": "Mathematics Competitor | Competition",
+        "category": "",
+        "date": "May 2023",
+        "side1": "left",
+        "side2": "left"
+    },
+    {
+        "name": "Area Wide Math Bowl Champion",
+        "desc": "Mathematics Competitor | Competition",
+        "category": "",
+        "date": "April 2023",
+        "side1": "left",
+        "side2": "right"
+    },
+    {
+        "name": "Python Pro Bootcamp Course",
+        "desc": "Python Developer | Certification",
+        "category": "main",
+        "date": "March 2023",
+        "side1": "left",
+        "side2": "left"
+    },
+    {
+        "name": "JavaScript Course",
+        "desc": "Web Developer | Certification",
+        "category": "main",
+        "date": "December 2022",
+        "side1": "right",
+        "side2": "right"
+    },
+    {
+        "name": "School Level Math Bowl Champion",
+        "desc": "Mathematics Competitor | Competition",
+        "category": "",
+        "date": "February 2022",
+        "side1": "right",
+        "side2": "left"
+    },
+    {
+        "name": "Web Development Course",
+        "desc": "Web Developer | Certification",
+        "category": "main",
+        "date": "November 2021",
+        "side1": "left",
+        "side2": "right"
+    },
+    {
+        "name": "Basic Aeromodelling Course",
+        "desc": "Course Participant | Certification",
+        "category": "",
+        "date": "April 2021",
+        "side1": "right",
+        "side2": "left"
+    },
+    {
+        "name": "Machine Learning for Kids and Beginners",
+        "desc": "AI Developer | Certification",
+        "category": "main",
+        "date": "January 2021",
+        "side1": "right",
+        "side2": "right"
+    },
+    {
+        "name": "Vedic Math & Mental Math Full Course",
+        "desc": "Mathematics | Certification",
+        "category": "",
+        "date": "November 2020",
+        "side1": "right",
+        "side2": "left"
+    }
+]

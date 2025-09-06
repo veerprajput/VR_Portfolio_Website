@@ -1,343 +1,442 @@
 [
     {
-      "name": "NotyStack Android",
-      "desc": "Fully fledged android CRUD app based on different design patterns. Built using Java, XML, SQLite, Firebase, RoomDB, MVVM.",
-      "image": "notystackandroid",
-      "category": "android",
-      "links": {
-        "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
-        "code": "https://github.com/jigar-sable/notystack-android"
-      }
+        "name": "AI Medical Assistant",
+        "desc": "An AI Medical Assistant, aiding people in their journey back to health. Made with Python, Flask, HTML, CSS, and Gemini API.",
+        "image": "AI_Medical_Assistant_Classic_GIF",
+        "category": "ai_ml python web_dev main",
+        "file_type": "gif",
+        "links": {
+            "view": "https://github.com/veerprajput/AI_Medical_Assistant",
+            "code": "https://github.com/veerprajput/AI_Medical_Assistant"
+            }
     },
     {
-      "name": "SPPU Engg Prep",
-      "desc": "All in one SPPU Engineering resources. Built using Java, XML and Firebase.",
-      "image": "sppuprepandroid",
-      "category": "android",
-      "links": {
-        "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
-        "code": "https://github.com/jigar-sable/sppu-prep-android"
-      }
+        "name": "ShopZinga E-Store Website",
+        "desc": "A Full-Stack E-Commerce Website. Made with Python, Flask, Jinja, HTML, CSS, JS, Cloud-Firestore Databases, and the Google Email Client.",
+        "image": "Shopzinga_GIF",
+        "category": "python web_dev main",
+        "file_type": "gif",
+        "links": {
+            "view": "https://github.com/veerprajput/Python-Projects/tree/9321fc2a8421d1ecc5730f9b6092491d95dbb7e0/Day_96/E-Commerce-Website",
+            "code": "https://github.com/veerprajput/Python-Projects/tree/9321fc2a8421d1ecc5730f9b6092491d95dbb7e0/Day_96/E-Commerce-Website"
+        }
     },
     {
-      "name": "NewsBox Android",
-      "desc": "Native android app built using Java, XML. Retrofit & Glide dependencies. Provides different category news.",
-      "image": "newsboxandroid",
-      "category": "android",
-      "links": {
-        "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
-        "code": "https://github.com/jigar-sable/newsbox-android"
-      }
+        "name": "CNN Image Identification",
+        "desc": "A Convolutional Neural Network for end-to-end computer vision image classification. Made with Python, Tensorflow, Keras, Numpy, and Gradio.",
+        "image": "CNN_Image_Classifier_GIF",
+        "category": "ai_ml python data_science main",
+        "file_type": "gif",
+        "links": {
+            "view": "https://github.com/veerprajput/AI_Machine_Learning_Projects/tree/8f9087d37e1cafd0189653b1a5d4110e79b82765/Part%208%20-%20Deep%20Learning/Section%2040%20-%20Convolutional%20Neural%20Networks%20(CNN)",
+            "code": "https://github.com/veerprajput/AI_Machine_Learning_Projects/tree/8f9087d37e1cafd0189653b1a5d4110e79b82765/Part%208%20-%20Deep%20Learning/Section%2040%20-%20Convolutional%20Neural%20Networks%20(CNN)"
+        }
     },
     {
-      "name": "Weatherly Android",
-      "desc": "Native android app built using Java, XML and Volley dependencies. Provides weather forecast.",
-      "image": "weatherlyandroid",
-      "category": "android",
-      "links": {
-        "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
-        "code": "https://github.com/jigar-sable/weatherly-android"
-      }
+        "name": "ANN Churn Modeling",
+        "desc": "A Artificial Neural Network for large-scale churn modeling. Made with Python, Tensorflow, Keras, Pandas, Numpy, Matplotlib, and Seaborn.",
+        "image": "ANN_Churn_Modeling_GIF",
+        "category": "ai_ml python data_science main",
+        "file_type": "gif",
+        "links": {
+            "view": "https://github.com/veerprajput/AI_Machine_Learning_Projects/tree/8f9087d37e1cafd0189653b1a5d4110e79b82765/Part%208%20-%20Deep%20Learning/Section%2039%20-%20Artificial%20Neural%20Networks%20(ANN)",
+            "code": "https://github.com/veerprajput/AI_Machine_Learning_Projects/tree/8f9087d37e1cafd0189653b1a5d4110e79b82765/Part%208%20-%20Deep%20Learning/Section%2039%20-%20Artificial%20Neural%20Networks%20(ANN)"
+        }
     },
     {
-      "name": "Instagram MERN",
-      "desc": "Full-Stack Instagram clone built using MERN stack and realtime chat with the help of socket.iO",
-      "image": "instagrammern",
-      "category": "mern",
-      "links": {
-        "view": "https://instagramernstack.herokuapp.com/",
-        "code": "https://github.com/jigar-sable/instagram-mern"
-      }
+        "name": "UCB / Thompson Sampling",
+        "desc": "A Reinforcement Learning Algorithm Using Upper Confidence Bound and Thompson Sampling. Made with Python, Plotly, Pandas, and Numpy.",
+        "image": "Reinforcement_Learning_GIF",
+        "category": "ai_ml python data_science main",
+        "file_type": "gif",
+        "links": {
+            "view": "https://github.com/veerprajput/AI_Machine_Learning_Projects/tree/8f9087d37e1cafd0189653b1a5d4110e79b82765/Part%206%20-%20Reinforcement%20Learning",
+            "code": "https://github.com/veerprajput/AI_Machine_Learning_Projects/tree/8f9087d37e1cafd0189653b1a5d4110e79b82765/Part%206%20-%20Reinforcement%20Learning"
+        }
     },
     {
-      "name": "Flipkart MERN",
-      "desc": "Full-Stack Flipkart with Admin Dashboard and Paytm Payment Gateway. MERN Stack WebApp, ready to use for business.",
-      "image": "flipkartmern",
-      "category": "mern",
-      "links": {
-        "view": "https://flipkartwebs.herokuapp.com/",
-        "code": "https://github.com/jigar-sable/flipkart-mern"
-      }
+        "name": "XGBoost Predictive Modeling",
+        "desc": "A High Performance Predictive Modeling using Extreme Gradient Boosting. Made with Python, XGBoost, Numpy, and Pandas.",
+        "image": "XGBoost_GIF",
+        "category": "ai_ml python data_science main",
+        "file_type": "gif",
+        "links": {
+            "view": "https://github.com/veerprajput/AI_Machine_Learning_Projects/tree/8f9087d37e1cafd0189653b1a5d4110e79b82765/Part%2010%20-%20Model%20Selection%20and%20Boosting/Section%2049%20-%20XGBoost",
+            "code": "https://github.com/veerprajput/AI_Machine_Learning_Projects/tree/8f9087d37e1cafd0189653b1a5d4110e79b82765/Part%2010%20-%20Model%20Selection%20and%20Boosting/Section%2049%20-%20XGBoost"
+        }
     },
     {
-      "name": "ResumeGen",
-      "desc": "ReactJS Basic Resume Generator which will generate customized resume in few minutes on your requirements.",
-      "image": "resumegen",
-      "category": "mern",
-      "links": {
-        "view": "https://resumegenx.netlify.app/",
-        "code": "https://github.com/jigar-sable/resumegen"
-      }
+        "name": "K-Means Clustering",
+        "desc": "A K-Means Clustering Model Using Dimensionality Reduction. Made with Python, Seaborn, Pandas, and Numpy.",
+        "image": "K_Means_Clustering_GIF",
+        "category": "ai_ml python data_science main",
+        "file_type": "gif",
+        "links": {
+            "view": "https://github.com/veerprajput/AI_Machine_Learning_Projects/tree/8f9087d37e1cafd0189653b1a5d4110e79b82765/Part%204%20-%20Clustering/Section%2024%20-%20K-Means%20Clustering",
+            "code": "https://github.com/veerprajput/AI_Machine_Learning_Projects/tree/8f9087d37e1cafd0189653b1a5d4110e79b82765/Part%204%20-%20Clustering/Section%2024%20-%20K-Means%20Clustering"
+        }
     },
     {
-      "name": "React-Projects",
-      "desc": "Full-Stack project dashboard which is collection of projects built on the React library.",
-      "image": "reactprojects",
-      "category": "mern",
-      "links": {
-        "view": "https://reactjsprojects.herokuapp.com/",
-        "code": "https://github.com/jigar-sable/React-Projects"
-      }
+        "name": "Naïve Bayes",
+        "desc": "A Complex Classification Algorithm using Naïve Bayes. Made with Python, Seaborn, Pandas, and Numpy.",
+        "image": "Naive_Bayes_GIF",
+        "category": "ai_ml python data_science main",
+        "file_type": "gif",
+        "links": {
+            "view": "https://github.com/veerprajput/AI_Machine_Learning_Projects/tree/8f9087d37e1cafd0189653b1a5d4110e79b82765/Part%203%20-%20Classification/Section%2018%20-%20Naive%20Bayes",
+            "code": "https://github.com/veerprajput/AI_Machine_Learning_Projects/tree/8f9087d37e1cafd0189653b1a5d4110e79b82765/Part%203%20-%20Classification/Section%2018%20-%20Naive%20Bayes"
+        }
     },
     {
-      "name": "Flipkart PHP",
-      "desc": "Full-Stack Flipkart Clone Using LAMP Stack. With all major features and OTP authentication and Cashfree payment gateway.",
-      "image": "flipkartphp",
-      "category": "lamp",
-      "links": {
-        "view": "https://github.com/jigar-sable/Flipkart-Clone-PHP",
-        "code": "https://github.com/jigar-sable/Flipkart-Clone-PHP"
-      }
+        "name": "Random Forest Regression",
+        "desc": "A Complex Random Forest Regression and Ensemble Learning. Made with Python, Seaborn, Pandas, and Numpy.",
+        "image": "RFR",
+        "category": "ai_ml python data_science main",
+        "file_type": "png",
+        "links": {
+            "view": "https://github.com/veerprajput/AI_Machine_Learning_Projects/tree/8f9087d37e1cafd0189653b1a5d4110e79b82765/Part%202%20-%20Regression/Section%209%20-%20Random%20Forest%20Regression",
+            "code": "https://github.com/veerprajput/AI_Machine_Learning_Projects/tree/8f9087d37e1cafd0189653b1a5d4110e79b82765/Part%202%20-%20Regression/Section%209%20-%20Random%20Forest%20Regression"
+        }
     },
     {
-      "name": "JavaScript Projects Website",
-      "desc": "This website is specially build to showcase all major javaScript projects. All my javaScript based projects are in it.",
-      "image": "jspro",
-      "category": "basicweb",
-      "links": {
-        "view": "https://jigar-sable.github.io/JavaScript-Projects",
-        "code": "https://github.com/jigar-sable/JavaScript-Projects"
-      }
+        "name": "Stack Overflow Data Analysis",
+        "desc": "Programming Language Popularity on Stack Overflow Data Analysis. Done with Pandas and Matplotlib.",
+        "image": "Stack_Overflow_GIF",
+        "category": "data_science",
+        "file_type": "png",
+        "links": {
+        "view": "https://github.com/veerprajput/Python-Projects/tree/07b2653713831eba6b49221f3cdf1159532ec47b/Day_72/Matplotlib",
+        "code": "https://github.com/veerprajput/Python-Projects/tree/07b2653713831eba6b49221f3cdf1159532ec47b/Day_72/Matplotlib"
+        }
     },
     {
-      "name": "Web UI Clones",
-      "desc": "Flipkart, YouTube, Instagram, Sololearn web UI clones using tailwindCSS.",
-      "image": "webuiclones",
-      "category": "mern",
-      "links": {
-        "view": "https://github.com/jigar-sable/web-ui-clones",
-        "code": "https://github.com/jigar-sable/web-ui-clones"
-      }
+        "name": "Lego Data Analysis",
+        "desc": "A detailed data analysis of LEGO sets. Done with Pandas and Matplotlib.",
+        "image": "Lego_Analysis_NEW",
+        "category": "data_science",
+        "file_type": "png",
+        "links": {
+        "view": "https://github.com/veerprajput/Python-Projects/tree/07b2653713831eba6b49221f3cdf1159532ec47b/Day_73/Lego%20Analysis",
+        "code": "https://github.com/veerprajput/Python-Projects/tree/07b2653713831eba6b49221f3cdf1159532ec47b/Day_73/Lego%20Analysis"
+        }
     },
     {
-      "name": "Crypto Tracker",
-      "desc": "Crypto Tracker built using ReactJS and Chakra UI. Supports dark mode. API used coingecko.",
-      "image": "cryptotracker",
-      "category": "mern",
-      "links": {
-        "view": "https://crypto-tracker-react-project.netlify.app/",
-        "code": "https://github.com/jigar-sable/React-Projects/tree/main/crypto-tracker"
-      }
+        "name": "Google Data Trend Analysis",
+        "desc": "A detailed data analysis of Google Data Trends. Done with Pandas, Matplotlib, and Numpy.",
+        "image": "Google_Trend_Analysis",
+        "category": "data_science main",
+        "file_type": "png",
+        "links": {
+        "view": "https://github.com/veerprajput/Python-Projects/tree/07b2653713831eba6b49221f3cdf1159532ec47b/Day_74/Google_Trends_Data",
+        "code": "https://github.com/veerprajput/Python-Projects/tree/07b2653713831eba6b49221f3cdf1159532ec47b/Day_74/Google_Trends_Data"
+        }
     },
     {
-      "name": "Hulu Website",
-      "desc": "Hulu website built using NextJS and tailwindCSS. API used TMDB, deployed on vercel.",
-      "image": "hulu",
-      "category": "mern",
-      "links": {
-        "view": "https://hulu-clone-jigar-sable.vercel.app/",
-        "code": "https://github.com/jigar-sable/React-Projects/tree/main/hulu-clone"
-      }
+        "name": "Nobel Prize Sunburst Chart",
+        "desc": "A sunburst chart showing the distribution of Nobel Prizes Around the World. Done with Pandas, Numpy, Matplotlib, Seaborn, and Plotly.",
+        "image": "Nobel_Prize_Distribution_Sunburst_Chart",
+        "category": "data_science main",
+        "file_type": "gif",
+        "links": {
+        "view": "https://github.com/veerprajput/Python-Projects/tree/07b2653713831eba6b49221f3cdf1159532ec47b/Day_78/Nobel%2BPrize%2BAnalysis%2BStart",
+        "code": "https://github.com/veerprajput/Python-Projects/tree/07b2653713831eba6b49221f3cdf1159532ec47b/Day_78/Nobel%2BPrize%2BAnalysis%2BStart"
+        }
     },
     {
-      "name": "Portfolio Website",
-      "desc": "Personal Portfolio Website. Don't Need Much Info About It, Just Scroll Down. You're Here Only!",
-      "image": "portfolio1",
-      "category": "basicweb",
-      "links": {
-        "view": "#",
-        "code": "https://github.com/jigar-sable/Portfolio-Website"
-      }
+        "name": "Nobel Prize Choropleth Chart",
+        "desc": "A Choropleth chart showing the distribution of Nobel Prizes Around the World. Done with Pandas, Numpy, Matplotlib, Seaborn, and Plotly.",
+        "image": "Nobel_Prize_Choropleth_GIF (1)",
+        "category": "data_science main",
+        "file_type": "gif",
+        "links": {
+        "view": "https://github.com/veerprajput/Python-Projects/tree/07b2653713831eba6b49221f3cdf1159532ec47b/Day_78/Nobel%2BPrize%2BAnalysis%2BStart",
+        "code": "https://github.com/veerprajput/Python-Projects/tree/07b2653713831eba6b49221f3cdf1159532ec47b/Day_78/Nobel%2BPrize%2BAnalysis%2BStart"
+        }
     },
     {
-      "name": "Composey Website",
-      "desc": "Simple landing page website built using HTML, CSS, JavaScript and some JavaScript Libraries.",
-      "image": "composey",
-      "category": "basicweb",
-      "links": {
-        "view": "https://composey.netlify.app/",
-        "code": "https://github.com/jigar-sable/LGMVIP-WebDev"
-      }
+        "name": "Movie Cost Revenue Analysis",
+        "desc": "A data analysis using Seaborn to analyze the cost and revenue of movies. Done with Pandas, Numpy, Matplotlib, Seaborn, and Plotly.",
+        "image": "Seaborn_Cost_Revenue_Analysis_NEW",
+        "category": "data_science main",
+        "file_type": "png",
+        "links": {
+        "view": "https://github.com/veerprajput/Python-Projects/tree/07b2653713831eba6b49221f3cdf1159532ec47b/Day_77/Seaborn%20Linear%20Regression",
+        "code": "https://github.com/veerprajput/Python-Projects/tree/07b2653713831eba6b49221f3cdf1159532ec47b/Day_77/Seaborn%20Linear%20Regression"
+        }
     },
     {
-      "name": "Webview App",
-      "desc": "It's an android app which uses web view component for displaying content. This app provides many different features.",
-      "image": "webviewapp",
-      "category": "android",
-      "links": {
-        "view": "https://github.com/jigar-sable/Android-Webview#webapp--android-webview-app",
-        "code": "https://github.com/jigar-sable/Android-Webview"
-      }
+        "name": "Veer's Blogging Website",
+        "desc": "A full-stack blog complete with authentication and comments. Made with Python, HTML, CSS, Flask, Jinja, SQL, and PostgreSQL.",
+        "image": "Veer_Blog_Website",
+        "category": "python web_dev main",
+        "file_type": "jpg",
+        "links": {
+        "view": "https://github.com/veerprajput/Python-Projects/tree/4fae36ba3ff147cbe8498713c24b8e1640f33150/Day_69/RESTful_Blog",
+        "code": "https://github.com/veerprajput/Python-Projects/tree/4fae36ba3ff147cbe8498713c24b8e1640f33150/Day_69/RESTful_Blog"
+        }
     },
     {
-      "name": "PHP Banking Website",
-      "desc": "Basic Banking System based on PHP and MySQL database. Made with HTML, CSS, JavaScript and backend with PHP.",
-      "image": "tsfbank",
-      "category": "lamp",
-      "links": {
-        "view": "https://tsfbank.rf.gd",
-        "code": "https://github.com/jigar-sable/TSF-Bank"
-      }
+        "name": "Movie Ranking Website",
+        "desc": "A Website to Rank Movies based on a 1 to 10 Star Rating. Made with Python, Flask, Jinja, SQL, HTML, And CSS.",
+        "image": "Movie_Ranking_Website_GIF",
+        "category": "python web_dev main",
+        "file_type": "gif",
+        "links": {
+        "view": "https://github.com/veerprajput/Python-Projects/tree/9321fc2a8421d1ecc5730f9b6092491d95dbb7e0/Day_64/Top_10_Movies",
+        "code": "https://github.com/veerprajput/Python-Projects/tree/9321fc2a8421d1ecc5730f9b6092491d95dbb7e0/Day_64/Top_10_Movies"
+        }
     },
     {
-      "name": "Bootstrap Portfolio",
-      "desc": "Portfolio built using HTML, CSS, Bootstrap, SASS and JavaScript. Customized Bootstrap using SCSS.",
-      "image": "bootstrapportfolio",
-      "category": "basicweb",
-      "links": {
-        "view": "#",
-        "code": "#"
-      }
+        "name": "Pokemon Card Bootstrap Store",
+        "desc": "A site to sell Pokemon Cards. Made with HTML, CSS, JavaScript, and Bootstrap.",
+        "image": "Pokemon_Bootstrap_GIF",
+        "category": "web_dev main",
+        "file_type": "gif",
+        "links": {
+        "view": "https://github.com/veerprajput/Python-Projects/tree/9321fc2a8421d1ecc5730f9b6092491d95dbb7e0/Day_58/Bootstrap%20My%20Site",
+        "code": "https://github.com/veerprajput/Python-Projects/tree/9321fc2a8421d1ecc5730f9b6092491d95dbb7e0/Day_58/Bootstrap%20My%20Site"
+        }
     },
     {
-      "name": "Bootstrap Template",
-      "desc": "Basic website template built using HTML and Bootstrap.",
-      "image": "bootstraptemplate",
-      "category": "basicweb",
-      "links": {
-        "view": "#",
-        "code": "#"
-      }
+        "name": "Keeper App",
+        "desc": "A Website Similar to Google Keep To Keep Notes. Made with JavaScript, React, EJS, and CSS.",
+        "image": "Keeper_App_GIF",
+        "category": "web_dev main",
+        "file_type": "gif",
+        "links": {
+        "view": "https://github.com/veerprajput/Web_Development_Course/tree/36668be2fb17c32274e6310da53582e1cb0397d6/Section_40/Keeper_App",
+        "code": "https://github.com/veerprajput/Web_Development_Course/tree/36668be2fb17c32274e6310da53582e1cb0397d6/Section_40/Keeper_App"
+        }
     },
     {
-      "name": "Foodicious",
-      "desc": "Basic food website landing page built using HTML, CSS and JavaScript.",
-      "image": "foodicious",
-      "category": "basicweb",
-      "links": {
-        "view": "#",
-        "code": "#"
-      }
+        "name": "Share A Place",
+        "desc": "A website that allows you to see your location. Made with HTML, CSS, JavaScript, Geocoding API, and Google Maps API.",
+        "image": "Share_A_Place",
+        "category": "web_dev",
+        "file_type": "gif",
+        "links": {
+            "view": "https://github.com/veerprajput/JavaScript_Projects/tree/fb65977f3e10f65d71f917d71f2d9d77e6a93219/Section_28/Security",
+            "code": "https://github.com/veerprajput/JavaScript_Projects/tree/fb65977f3e10f65d71f917d71f2d9d77e6a93219/Section_28/Security"
+        }
     },
     {
-      "name": "Food Website",
-      "desc": "Basic food website landing page built using HTML, CSS, SASS, Bootstrap and jQuery.",
-      "image": "foodwebsite",
-      "category": "basicweb",
-      "links": {
-        "view": "#",
-        "code": "#"
-      }
+        "name": "Old Portfolio Website",
+        "desc": "Another personal portfolio website created and designed by me. Made with HTML, CSS, and JavaScript.",
+        "image": "Other_Portfolio_Website2",
+        "category": "web_dev",
+        "file_type": "jpg",
+        "links": {
+            "view": "https://github.com/veerprajput/Python-Projects/tree/9321fc2a8421d1ecc5730f9b6092491d95dbb7e0/Day_44/CSS%20My%20Site",
+            "code": "https://github.com/veerprajput/Python-Projects/tree/9321fc2a8421d1ecc5730f9b6092491d95dbb7e0/Day_44/CSS%20My%20Site"
+        }
     },
     {
-      "name": "WebChat Website",
-      "desc": "It's a web based chat app made using popular javaScript library Socket IO. Allows multiple users to connect.",
-      "image": "webchat",
-      "category": "mern",
-      "links": {
-        "view": "https://github.com/jigar-sable/WebChat#webchat",
-        "code": "https://github.com/jigar-sable/WebChat"
-      }
+        "name": "Coffee Wifi Website",
+        "desc": "A Website That Recommends Coffee Shops With Good Wifi. Made with Python, Flask, Jinja, APIs, HTML, and CSS.",
+        "image": "Coffee_Wifi_Website_GIF",
+        "category": "python web_dev",
+        "file_type": "gif",
+        "links": {
+            "view": "https://github.com/veerprajput/Python-Projects/tree/07b2653713831eba6b49221f3cdf1159532ec47b/Day_87/Even%20Better%20Coffee%20Machine",
+            "code": "https://github.com/veerprajput/Python-Projects/tree/07b2653713831eba6b49221f3cdf1159532ec47b/Day_87/Even%20Better%20Coffee%20Machine"
+        }
     },
     {
-      "name": "Basic Banking App",
-      "desc": "It's an android app which uses SQLite to store user accounts data. It provides feature to simply transact amount.",
-      "image": "basicbank",
-      "category": "android",
-      "links": {
-        "view": "https://github.com/jigar-sable/Basic_Banking_App#basic-banking-app",
-        "code": "https://github.com/jigar-sable/Basic_Banking_App"
-      }
+        "name": "Todo List Website",
+        "desc": "A Website To Manage Your Time Effectively. Made with Python, Flask, HTML, CSS, and JavaScript.",
+        "image": "ToDo List GIF",
+        "category": "python web_dev",
+        "file_type": "gif",
+        "links": {
+            "view": "https://github.com/veerprajput/Python-Projects/tree/07b2653713831eba6b49221f3cdf1159532ec47b/Day_88/Todo%20List",
+            "code": "https://github.com/veerprajput/Python-Projects/tree/07b2653713831eba6b49221f3cdf1159532ec47b/Day_88/Todo%20List"
+        }
     },
     {
-      "name": "JavaScript Issue Tracker",
-      "desc": "It provides the feature to Assign Issue With The Auto Generated Id By Using ChanceJS. Uses Local Storage.",
-      "image": "issuetrack",
-      "category": "basicweb",
-      "links": {
-        "view": "https://jigar-sable.github.io/JavaScript-Projects/projects/issuetracker",
-        "code": "https://github.com/jigar-sable/JavaScript-Projects/tree/main/projects/issuetracker"
-      }
+        "name": "Flash Card App",
+        "desc": "An App that helps you Learn New Languages like Spanish and French. Made with Python, Turtle, Tkinter, and Pandas.",
+        "image": "Flash_Card_App",
+        "category": "python",
+        "file_type": "gif",
+        "links": {
+            "view": "https://github.com/veerprajput/Python-Projects/tree/07b2653713831eba6b49221f3cdf1159532ec47b/Day_31/Flash_Card_App",
+            "code": "https://github.com/veerprajput/Python-Projects/tree/07b2653713831eba6b49221f3cdf1159532ec47b/Day_31/Flash_Card_App"
+        }
     },
     {
-      "name": "PHP PBL Portal",
-      "desc": "A simple portal in which students can submit their PBL projects and faculties can view by access admin panel.",
-      "image": "phppblform",
-      "category": "lamp",
-      "links": {
-        "view": "https://github.com/jigar-sable/PHP-Projects/tree/main/pblform#pbl-portal",
-        "code": "https://github.com/jigar-sable/PHP-Projects/tree/main/pblform"
-      }
+        "name": "Quizzler",
+        "desc": "A project that asks you True Or False Questions. Made with Python, Turtle, Tkinter, and Pandas.",
+        "image": "Quizzler_GIF",
+        "category": "python",
+        "file_type": "gif",
+        "links": {
+            "view": "https://github.com/veerprajput/Python-Projects/tree/07b2653713831eba6b49221f3cdf1159532ec47b/Day_34/Quizzler",
+            "code": "https://github.com/veerprajput/Python-Projects/tree/07b2653713831eba6b49221f3cdf1159532ec47b/Day_34/Quizzler"
+        }
     },
     {
-      "name": "Link List",
-      "desc": "All major profile links in a single website. It's just like clone of link tree. Personalized and Responsive.",
-      "image": "linklist",
-      "category": "basicweb",
-      "links": {
-        "view": "https://jigar-sable.github.io/LinkList",
-        "code": "https://github.com/jigar-sable/LinkList"
-      }
+        "name": "Simon Game",
+        "desc": "An Intricate Memory Game. Made with HTML, CSS, JavaScript, and JQuery.",
+        "image": "Simon_Game_GIF",
+        "category": "web_dev games",
+        "file_type": "gif",
+        "links": {
+            "view": "https://github.com/veerprajput/Web_Development_Course/tree/36668be2fb17c32274e6310da53582e1cb0397d6/Section_20/Simon%20Game%20Challenge%20Starting%20Files",
+            "code": "https://github.com/veerprajput/Web_Development_Course/tree/36668be2fb17c32274e6310da53582e1cb0397d6/Section_20/Simon%20Game%20Challenge%20Starting%20Files"
+        }
     },
     {
-      "name": "Job Finder Dummy",
-      "desc": "It Fetch JSON Data And Allow Feature To Search Within The Content Displayed. Will be Developed By Using Live APIs.",
-      "image": "saas",
-      "category": "basicweb",
-      "links": {
-        "view": "https://jigar-sable.github.io/JavaScript-Projects/api-projects/saas-jobs",
-        "code": "https://github.com/jigar-sable/JavaScript-Projects/tree/main/api-projects/saas-jobs"
-      }
+        "name": "Dicee Game",
+        "desc": "A game of rolling dice to settle disputes. Made with HTML, CSS, and JavaScript.",
+        "image": "Dicee Game GIF",
+        "category": "web_dev games",
+        "file_type": "gif",
+        "links": {
+            "view": "https://github.com/veerprajput/Web_Development_Course/tree/36668be2fb17c32274e6310da53582e1cb0397d6/Section_17/Dicee/Dicee%20Challenge%20-%20Starting%20Files",
+            "code": "https://github.com/veerprajput/Web_Development_Course/tree/36668be2fb17c32274e6310da53582e1cb0397d6/Section_17/Dicee/Dicee%20Challenge%20-%20Starting%20Files"
+        }
     },
     {
-      "name": "Old Websites",
-      "desc": "Bestwebs & ColorCoder. Two Years old websites memories. Simple with basic features.",
-      "image": "oldsites",
-      "category": "basicweb",
-      "links": {
-        "view": "#",
-        "code": "#"
-      }
+        "name": "Harry Potter Trivia Website",
+        "desc": "A website with Harry Potter Trivia. Made with Python, Flask, Jinja, APIs, HTML, and CSS.",
+        "image": "Harry_Potter_Project",
+        "category": "python web_dev",
+        "file_type": "gif",
+        "links": {
+            "view": "https://github.com/veerprajput/Python-Projects/tree/07b2653713831eba6b49221f3cdf1159532ec47b/Day_95/Harry%20Potter%20Characters%20and%20Spells",
+            "code": "https://github.com/veerprajput/Python-Projects/tree/07b2653713831eba6b49221f3cdf1159532ec47b/Day_95/Harry%20Potter%20Characters%20and%20Spells"
+        }
     },
     {
-      "name": "Resistor Color Codes",
-      "desc": "Simply provides the color codes of resistors. Calculation information and about resistors.",
-      "image": "resistercolor",
-      "category": "basicweb",
-      "links": {
-        "view": "#",
-        "code": "#"
-      }
+        "name": "Project Planner",
+        "desc": "A Website That Helps You Make A Project Planner. Made with HTML, CSS, and JavaScript.",
+        "image": "Project_Planner",
+        "category": "web_dev",
+        "file_type": "gif",
+        "links": {
+            "view": "https://github.com/veerprajput/JavaScript_Projects/tree/fb65977f3e10f65d71f917d71f2d9d77e6a93219/Section_12/Project_Planner",
+            "code": "https://github.com/veerprajput/JavaScript_Projects/tree/fb65977f3e10f65d71f917d71f2d9d77e6a93219/Section_12/Project_Planner"
+        }
     },
     {
-      "name": "KIA Info Website",
-      "desc": "Basic KIA webpage displays the info about seltos product range. Specs and Image Gallery.",
-      "image": "kiaweb",
-      "category": "basicweb",
-      "links": {
-        "view": "#",
-        "code": "#"
-      }
+        "name": "Pomodoro App",
+        "desc": "A Time Management app that uses the Pomodoro Technique. Made with Python, Turtle, and Tkinter.",
+        "image": "Pomodoro",
+        "category": "python",
+        "file_type": "jpg",
+        "links": {
+            "view": "https://github.com/veerprajput/Python-Projects/tree/07b2653713831eba6b49221f3cdf1159532ec47b/Day_28/Pomodoro",
+            "code": "https://github.com/veerprajput/Python-Projects/tree/07b2653713831eba6b49221f3cdf1159532ec47b/Day_28/Pomodoro"
+        }
     },
     {
-      "name": "Burger Shop Dummy",
-      "desc": "Basic burger shop webpage allow users to check menu and price. Dummy Order Form.",
-      "image": "burgerweb",
-      "category": "basicweb",
-      "links": {
-        "view": "#",
-        "code": "#"
-      }
+        "name": "Password Manager",
+        "desc": "A Password Managing Application. Made with Python, Turtle, Tkinter, JSON, and Pyperclip.",
+        "image": "Password_Manager_GIF",
+        "category": "python",
+        "file_type": "gif",
+        "links": {
+            "view": "https://github.com/veerprajput/Python-Projects/tree/07b2653713831eba6b49221f3cdf1159532ec47b/Day_29/password-manager-start",
+            "code": "https://github.com/veerprajput/Python-Projects/tree/07b2653713831eba6b49221f3cdf1159532ec47b/Day_29/password-manager-start"
+        }
     },
     {
-      "name": "Indian Temples",
-      "desc": "It shows temples of different sectors of India. as user clicks it will redirect to wiki of that temple for info.",
-      "image": "templeweb",
-      "category": "basicweb",
-      "links": {
-        "view": "#",
-        "code": "#"
-      }
+        "name": "Typing Speed Test",
+        "desc": "A Typing Speed Test that measures your typing speed. Made with Python, Turtle, and Tkinter.",
+        "image": "Typing_Speed_Test_GIF",
+        "category": "python",
+        "file_type": "gif",
+        "links": {
+            "view": "https://github.com/veerprajput/Python-Projects/tree/07b2653713831eba6b49221f3cdf1159532ec47b/Day_85",
+            "code": "https://github.com/veerprajput/Python-Projects/tree/07b2653713831eba6b49221f3cdf1159532ec47b/Day_85"
+        }
     },
     {
-      "name": "Indian Temples",
-      "desc": "It shows temples of different sectors of India. as user clicks it will redirect to wiki of that temple for info.",
-      "image": "templeweb",
-      "category": "basicweb",
-      "links": {
-        "view": "#",
-        "code": "#"
-      }
+        "name": "Breakout Game",
+        "desc": "A Classic Arcade Breakout Game. Made with Python, Tkinter and Turtle.",
+        "image": "Breakout_Game_GIF_2",
+        "category": "python games",
+        "file_type": "gif",
+        "links": {
+            "view": "https://github.com/veerprajput/Python-Projects/tree/07b2653713831eba6b49221f3cdf1159532ec47b/Day_86/Breakout",
+            "code": "https://github.com/veerprajput/Python-Projects/tree/07b2653713831eba6b49221f3cdf1159532ec47b/Day_86/Breakout"
+        }
     },
     {
-      "name": "Indian Temples",
-      "desc": "It shows temples of different sectors of India. as user clicks it will redirect to wiki of that temple for info.",
-      "image": "templeweb",
-      "category": "basicweb",
-      "links": {
-        "view": "#",
-        "code": "#"
-      }
+        "name": "Space Invaders Game",
+        "desc": "A Classic Space Invaders Game. Made with Python, Tkinter and Turtle.",
+        "image": "Space_Invaders_GIF",
+        "category": "python games",
+        "file_type": "gif",
+        "links": {
+            "view": "https://github.com/veerprajput/Python-Projects/tree/07b2653713831eba6b49221f3cdf1159532ec47b/Day_94/Space_Invaders",
+            "code": "https://github.com/veerprajput/Python-Projects/tree/07b2653713831eba6b49221f3cdf1159532ec47b/Day_94/Space_Invaders"
+        }
+    },
+    {
+        "name": "Snake Game",
+        "desc": "A Classic Snake Arcade Game. Made with Python and Turtle.",
+        "image": "Snake_Game_GIF",
+        "category": "python games",
+        "file_type": "gif",
+        "links": {
+            "view": "https://github.com/veerprajput/Python-Projects/tree/07b2653713831eba6b49221f3cdf1159532ec47b/Day_21/Snake",
+            "code": "https://github.com/veerprajput/Python-Projects/tree/07b2653713831eba6b49221f3cdf1159532ec47b/Day_21/Snake"
+        }
+    },
+    {
+        "name": "Pong Game",
+        "desc": "A Classic Pong Arcade Game. Made with Python and Turtle.",
+        "image": "Pong_Game_GIF",
+        "category": "python games",
+        "file_type": "gif",
+        "links": {
+            "view": "https://github.com/veerprajput/Python-Projects/tree/07b2653713831eba6b49221f3cdf1159532ec47b/Day_22/Pong",
+            "code": "https://github.com/veerprajput/Python-Projects/tree/07b2653713831eba6b49221f3cdf1159532ec47b/Day_22/Pong"
+        }
+    },
+    {
+        "name": "Turtle Crossing Game",
+        "desc": "A Turtle Crossing Game that resembles the game Crossy Road. Made with Python and Turtle.",
+        "image": "Turtle_Crossing_GIF",
+        "category": "python games",
+        "file_type": "gif",
+        "links": {
+            "view": "https://github.com/veerprajput/Python-Projects/tree/07b2653713831eba6b49221f3cdf1159532ec47b/Day_23/Turtle_Crossing",
+            "code": "https://github.com/veerprajput/Python-Projects/tree/07b2653713831eba6b49221f3cdf1159532ec47b/Day_23/Turtle_Crossing"
+        }
+    },
+    {
+        "name": "Educational USA States Game",
+        "desc": "A Kids Educational Game to Locate the 50 US States. Made with Python, Turtle, and APIs.",
+        "image": "USA_States_Game_GIF",
+        "category": "python games main",
+        "file_type": "gif",
+        "links": {
+            "view": "https://github.com/veerprajput/Python-Projects/tree/07b2653713831eba6b49221f3cdf1159532ec47b/Day_25/Us_States_Guessing_Game/Us%20State%20Game",
+            "code": "https://github.com/veerprajput/Python-Projects/tree/07b2653713831eba6b49221f3cdf1159532ec47b/Day_25/Us_States_Guessing_Game/Us%20State%20Game"
+        }
+    },
+    {
+        "name": "Miniature Shop",
+        "desc": "A Miniature Shop Clone. Made with HTML, CSS, and JavaScript.",
+        "image": "Mini_Shop",
+        "category": "web_dev",
+        "file_type": "gif",
+        "links": {
+            "view": "https://github.com/veerprajput/JavaScript_Projects/tree/fb65977f3e10f65d71f917d71f2d9d77e6a93219/Section_10/Gaming%20Mini%20Shop",
+            "code": "https://github.com/veerprajput/JavaScript_Projects/tree/fb65977f3e10f65d71f917d71f2d9d77e6a93219/Section_10/Gaming%20Mini%20Shop"
+        }
+    },
+    {
+        "name": "EJS Blog",
+        "desc": "A Blog Website made with EJS. Made with JavaScript, EJS, HTML, and CSS.",
+        "image": "Blog_Website_GIF",
+        "category": "web_dev",
+        "file_type": "gif",
+        "links": {
+            "view": "https://github.com/veerprajput/Web_Development_Course/tree/36668be2fb17c32274e6310da53582e1cb0397d6/Section_30/EJS%20Blog",
+            "code": "https://github.com/veerprajput/Web_Development_Course/tree/36668be2fb17c32274e6310da53582e1cb0397d6/Section_30/EJS%20Blog"
+        }
     }
-  ]
-  
+]

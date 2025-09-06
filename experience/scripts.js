@@ -17,18 +17,55 @@ $(document).ready(function(){
     });
 });
 
-/* ===== SCROLL REVEAL ANIMATION ===== */
-const srtop = ScrollReveal({
-    origin: 'top',
-    distance: '80px',
-    duration: 1000,
-    reset: true
+function getExperience() {
+    return fetch("../experience.json")
+        .then(response => response.json())
+        .then(data => {
+            return data
+        });
+}
+
+function showExperience(experience) {
+    let ExperienceContainer = document.querySelector("#experience .timeline");
+    let experienceHTML = "";
+    experience.forEach(experience => {
+        experienceHTML += `
+    <div class="container ${experience.side2}">
+        <div class="content">
+            <div class="tag">
+                <h2>${experience.name}</h2>
+            </div>
+            <div class="desc">
+                <h3>${experience.desc}</h3>
+                <p>${experience.date}</p>
+            </div>
+        </div>
+    </div>
+    `
+    });
+    ExperienceContainer.innerHTML = experienceHTML;
+
+    // <!-- tilt js effect starts -->
+    VanillaTilt.init(document.querySelectorAll(".tilt"), {
+        max: 15,
+    });
+    // <!-- tilt js effect ends -->
+
+    /* ===== SCROLL REVEAL ANIMATION ===== */
+    const srtop = ScrollReveal({
+        origin: 'top',
+        distance: '80px',
+        duration: 1000,
+    });
+
+    /* SCROLL PROJECTS */
+    srtop.reveal('.work .box', { interval: 200 });
+
+}
+
+getExperience().then(data => {
+    showExperience(data);
 });
-
-/* SCROLL EXPERIENCE */
-srtop.reveal('.experience .timeline',{delay: 400});
-srtop.reveal('.experience .timeline .container',{interval: 400}); 
-
 
 // Start of Tawk.to Live Chat
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
@@ -65,11 +102,11 @@ document.onkeydown = function(e) {
 document.addEventListener('visibilitychange',
 function(){
     if(document.visibilityState === "visible"){
-        document.title = "Experience | Portfolio Jigar Sable";
+        document.title = "Experience | Portfolio Veer Rajput";
         $("#favicon").attr("href","/assets/images/favicon.png");
     }
     else {
         document.title = "Come Back To Portfolio";
-        $("#favicon").attr("href","/assets/images/favhand.png");
+        $("#favicon").attr("href","../assets/images/favicon.png");
     }
 });
