@@ -68,7 +68,6 @@ section {
 .heading span {
   color: rgb(115, 3, 167);
 }
-/* FIXED: Logo Alignment */
 header .logo {
   font-weight: 800;
   text-decoration: none;
@@ -119,7 +118,6 @@ header .navbar ul li a:hover {
   display: none;
 }
 
-/* FIXED: Changed breakpoint to 992px to collapse navbar on tablets */
 @media (max-width: 992px) {
   header {
     padding: 1.7rem 5%;
@@ -239,7 +237,6 @@ header .navbar ul li a:hover {
   font-weight: 600;
   padding: 1rem 0;
 }
-/* FIXED: Adjusted margin for "About Me" button */
 .home .btn {
   margin-top: 3rem;
   line-height: 0;
@@ -617,7 +614,7 @@ header .navbar ul li a:hover {
   100% { transform: translate(0, 0) rotate(-5deg); }
 }
 
-/* skills section starts */
+/* REVERTED: Skills Section */
 .skills {
   min-height: 90vh;
   background: linear-gradient(to bottom, #57059e, #4a00e0);
@@ -640,6 +637,7 @@ header .navbar ul li a:hover {
 .skills .container .row {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
+  flex-wrap: wrap;
   gap: 1.8rem;
 }
 .skills .container .bar {
@@ -661,37 +659,29 @@ header .navbar ul li a:hover {
   gap: 1rem;
   margin-top: 1rem;
 }
-.skills .container .bar .info img {
-    height: 3.5rem;
+.skills .container .bar .info i {
+  font-size: 4rem;
 }
 .skills .container .bar .info span {
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 500;
   font-family: "Poppins";
-}
-
-@media screen and (max-width: 1200px) {
-  .skills .container .row {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
-@media screen and (max-width: 768px) {
-  .skills .container .row {
-    grid-template-columns: repeat(3, 1fr);
-  }
+  margin-left: 0.5rem;
 }
 @media screen and (max-width: 600px) {
   .skills .container {
     padding: 0;
     margin: 0;
-    width: 100%;
-    margin-top: 5px;
   }
   .skills .container .row {
     grid-template-columns: repeat(2, 1fr);
     margin: 1rem;
-    padding: 2rem 0.2rem;
+    padding: 2rem 0.2rem 2rem 0.2rem;
     gap: 1rem;
+  }
+  .skills .container {
+    margin-top: 5px;
+    width: 100%;
   }
 }
 /* skills section ends */

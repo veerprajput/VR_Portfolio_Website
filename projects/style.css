@@ -114,7 +114,6 @@ header .navbar ul li a:hover{
   display: none;
 }
 
-/* FIXED: Breakpoint changed to 992px */
 @media(max-width:992px){
   header {
       padding: 1.7rem 5%;
@@ -211,18 +210,18 @@ header .navbar ul li a:hover{
   color: #000;
 }
 
-/* FIXED: This rule now correctly centers items and allows for 5 cards per row */
+/* FIXED: This rule now correctly centers items and allows for 5 large cards per row */
 .work .box-container {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
   margin: 2rem auto;
-  max-width: 1400px; /* Increased max-width to fit 5 cards */
+  max-width: 1800px; /* Increased max-width to fit 5 large cards */
   justify-content: center; 
 }
 .work .box-container .box {
-  flex: 1 1 22rem; /* Adjusted flex-basis for better spacing */
-  max-width: 24rem; /* Added max-width to control size */
+  flex: 1 1 30rem; /* Set to the larger, homepage card size */
+  max-width: 32rem; /* Optional: controls max size to prevent stretching too wide */
   border-radius: 0.5rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   position: relative;
