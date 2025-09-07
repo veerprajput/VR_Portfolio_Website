@@ -137,7 +137,6 @@ header .navbar ul li a:hover {
   display: none;
 }
 
-/* ===== REVISED MEDIA QUERIES FOR RESPONSIVE HEADER ===== */
 @media (max-width: 992px) {
     header {
         padding: 1.7rem 5%; /* Reduce padding on tablets */
@@ -169,7 +168,7 @@ header .navbar ul li a:hover {
     text-align: center;
     width: 100%;
     margin: 1rem 0;
-    border-radius: 0.5rem;
+    border-radius: .5rem;
     width: 26rem;
   }
   header .navbar ul li a {
@@ -183,8 +182,8 @@ header .navbar ul li a:hover {
   header .navbar ul li a:hover {
     padding: 1rem;
     color: #fff;
-    border-radius: 0.5rem;
-    border-bottom: 0.5rem solid #011aff;
+    border-radius: .5rem;
+    border-bottom: .5rem solid #011aff;
   }
   .fa-times {
     transform: rotate(180deg);
@@ -262,7 +261,6 @@ header .navbar ul li a:hover {
 }
 .home .btn {
   margin-top: 1rem;
-  /* position: absolute; */
   line-height: 0;
   padding: 1.6rem 3rem;
   border-radius: 4em;
@@ -360,7 +358,6 @@ header .navbar ul li a:hover {
 }
 /* hero media queries ends*/
 /* hero section end */
-
 
 /* about section starts */
 .about {
@@ -564,7 +561,6 @@ header .navbar ul li a:hover {
   font-size: 12rem;
 }
 
-/* --- ICON POSITIONS & UNIQUE ANIMATIONS --- */
 .background-icons .fa-python {
   top: 35%;
   left: 15%;
@@ -616,8 +612,8 @@ header .navbar ul li a:hover {
 /* Media query for background icons on mobile */
 @media screen and (max-width: 768px) {
   .background-icons i {
-    font-size: 8rem; /* Make icons smaller on mobile */
-    opacity: 0.25; /* Make them more transparent */
+    font-size: 8rem; 
+    opacity: 0.25;
   }
   .background-icons .fa-python { top: 5%; left: 5%; }
   .background-icons .fa-react { top: 15%; right: 10%; font-size: 9rem; }
@@ -629,7 +625,6 @@ header .navbar ul li a:hover {
   .background-icons .fa-database { top: 60%; left: 5%; }
 }
 
-/* --- KEYFRAME ANIMATIONS --- */
 @keyframes float1 {
   0% { transform: translateY(0px) rotate(0deg); }
   50% { transform: translateY(-30px) rotate(8deg); }
@@ -648,7 +643,7 @@ header .navbar ul li a:hover {
   100% { transform: translate(0, 0) rotate(-5deg); }
 }
 
-/* skills section starts */
+/* ===== REVISED SKILLS SECTION STARTS ===== */
 .skills {
   min-height: 90vh;
   background: linear-gradient(to bottom, #57059e, #4a00e0);
@@ -670,8 +665,8 @@ header .navbar ul li a:hover {
 }
 .skills .container .row {
   display: grid;
+  /* Default for desktop */
   grid-template-columns: repeat(6, 1fr);
-  flex-wrap: wrap;
   gap: 1.8rem;
 }
 .skills .container .bar {
@@ -702,25 +697,35 @@ header .navbar ul li a:hover {
   font-family: "Poppins";
   margin-left: 0.5rem;
 }
-/* skills media queries starts*/
+
+/* Responsive media queries for skills grid */
+@media screen and (max-width: 1200px) {
+  .skills .container .row {
+    grid-template-columns: repeat(4, 1fr); /* 4 columns for laptops/large tablets */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .skills .container .row {
+    grid-template-columns: repeat(3, 1fr); /* 3 columns for tablets */
+  }
+}
+
 @media screen and (max-width: 600px) {
   .skills .container {
     padding: 0;
     margin: 0;
+    width: 100%;
+    margin-top: 5px;
   }
   .skills .container .row {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr); /* 2 columns for phones */
     margin: 1rem;
-    padding: 2rem 0.2rem 2rem 0.2rem;
+    padding: 2rem 0.2rem;
     gap: 1rem;
   }
-  .skills .container {
-    margin-top: 5px;
-    width: 100%;
-  }
 }
-/* skills media queries ends*/
-/* skills section ends */
+/* ===== REVISED SKILLS SECTION ENDS ===== */
 
 /* education section starts */
 .education {
@@ -831,7 +836,6 @@ header .navbar ul li a:hover {
 
 /* work section starts */
 .work {
-  /* background: #010124; */
   background: linear-gradient(to bottom, #000031, #00002c);
 }
 .work h2 {
@@ -846,7 +850,7 @@ header .navbar ul li a:hover {
   flex-wrap: wrap;
   gap: 1.5rem;
   margin: 2rem;
-  justify-content: center; /* Center the items within the container */
+  justify-content: center;
 }
 .work .box-container .box {
   flex: 1 1 30rem;
@@ -973,7 +977,6 @@ header .navbar ul li a:hover {
   background-color: inherit;
   width: 50%;
 }
-/*circles on timeline*/
 .experience .container::after {
   content: "\f0b1";
   position: absolute;
@@ -997,7 +1000,6 @@ header .navbar ul li a:hover {
 .experience .right {
   left: 50%;
 }
-/* arrows pointing right */
 .experience .left::before {
   content: " ";
   height: 0;
@@ -1010,7 +1012,6 @@ header .navbar ul li a:hover {
   border-width: 10px 0 10px 10px;
   border-color: transparent transparent transparent #f68c09;
 }
-/* arrows pointing left  */
 .experience .right::before {
   content: " ";
   height: 0;
@@ -1047,7 +1048,6 @@ header .navbar ul li a:hover {
 .experience .content .desc p {
   font-size: 1.2rem;
 }
-/* view all button */
 .morebtn {
   display: flex;
   justify-content: center;
@@ -1080,7 +1080,6 @@ header .navbar ul li a:hover {
   transform: translateX(5px);
 }
 
-/* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
   .experience {
     min-height: 80vh;
@@ -1118,7 +1117,6 @@ header .navbar ul li a:hover {
     margin-top: 3rem;
   }
 }
-/* experience media queries ends */
 /* experience section ends */
 
 /* contact section starts */
@@ -1256,7 +1254,6 @@ form .button-area {
 .button-area button:hover i {
   left: 8px;
 }
-/* contact section media queries starts */
 @media (max-width: 900px) {
   .contact {
     min-height: 70vh;
@@ -1275,7 +1272,6 @@ form .button-area {
     margin-right: 2rem;
   }
 }
-/* contact section media queries ends */
 /* contact section ends */
 
 /* footer section starts */

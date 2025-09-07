@@ -176,6 +176,7 @@ header .navbar ul li a:hover{
 }
 .work h2 {
   color: #fff;
+  padding: 1rem;
   padding-top: 8rem;
   padding-bottom: 2rem;
 }
@@ -218,7 +219,7 @@ header .navbar ul li a:hover{
   gap: 1.5rem;
   margin: 2rem auto;
   max-width: 1200px;
-  justify-content: center; /* THIS IS THE FIX FOR CENTERING */
+  justify-content: center; /* <<< THIS IS THE FIX */
 }
 .work .box-container .box {
   flex: 1 1 30rem;
