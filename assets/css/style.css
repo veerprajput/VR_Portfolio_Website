@@ -91,10 +91,16 @@ header .logo {
   font-weight: 800;
   text-decoration: none;
   color: #0e2431;
+  display: flex; /* Use flexbox for alignment */
+  align-items: center;
+  gap: 0.8rem; /* Space between icon and text */
 }
-header .logo i {
-  font-size: 2.2rem;
+
+/* Styling for the text part of the logo */
+header .logo span:last-child {
+    font-size: 2.4rem;
 }
+
 header .logo:hover {
   color: #fc8c05;
 }
@@ -130,6 +136,17 @@ header .navbar ul li a:hover {
   color: rgb(24, 2, 63);
   display: none;
 }
+
+/* ===== REVISED MEDIA QUERIES FOR RESPONSIVE HEADER ===== */
+@media (max-width: 992px) {
+    header {
+        padding: 1.7rem 5%; /* Reduce padding on tablets */
+    }
+    header .logo span:last-child {
+        font-size: 2rem; /* Reduce font size */
+    }
+}
+
 @media (max-width: 768px) {
   #menu {
     display: block;
@@ -245,7 +262,7 @@ header .navbar ul li a:hover {
 }
 .home .btn {
   margin-top: 1rem;
-  position: absolute;
+  /* position: absolute; */
   line-height: 0;
   padding: 1.6rem 3rem;
   border-radius: 4em;
@@ -345,7 +362,7 @@ header .navbar ul li a:hover {
 /* hero section end */
 
 
-/* ===== ABOUT SECTION REVISED STARTS ===== */
+/* about section starts */
 .about {
   background: #f7f7f7;
   padding: 2rem 2rem 8rem 2rem;
@@ -519,6 +536,7 @@ header .navbar ul li a:hover {
     font-size: 3.2rem;
   }
 }
+/* about section ends */
 
 /* --- Background Icons for About Section --- */
 .about {
@@ -629,8 +647,6 @@ header .navbar ul li a:hover {
   75% { transform: translate(10px, 15px) rotate(15deg); }
   100% { transform: translate(0, 0) rotate(-5deg); }
 }
-/* ===== ABOUT SECTION REVISED ENDS ===== */
-
 
 /* skills section starts */
 .skills {
@@ -830,6 +846,7 @@ header .navbar ul li a:hover {
   flex-wrap: wrap;
   gap: 1.5rem;
   margin: 2rem;
+  justify-content: center; /* Center the items within the container */
 }
 .work .box-container .box {
   flex: 1 1 30rem;

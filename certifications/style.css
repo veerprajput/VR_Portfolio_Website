@@ -70,10 +70,15 @@ header .logo{
   font-weight: 800;
   text-decoration: none;
   color: #0E2431;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
 }
-header .logo i {
-  font-size: 2.2rem;
+
+header .logo span:last-child {
+    font-size: 2.4rem;
 }
+
 header .logo:hover {
   color: #fc8c05;
 }
@@ -108,6 +113,16 @@ header .navbar ul li a:hover{
   color: rgb(24, 2, 63);
   display: none;
 }
+
+@media (max-width: 992px) {
+    header {
+        padding: 1.7rem 5%;
+    }
+    header .logo span:last-child {
+        font-size: 2rem;
+    }
+}
+
 @media(max-width:768px){
   #menu{
       display: block;
@@ -161,8 +176,7 @@ header .navbar ul li a:hover{
 }
 .work h2 {
   color: #fff;
-  padding: 1rem;
-  padding-top: 7rem; /* Added padding */
+  padding-top: 8rem;
   padding-bottom: 2rem;
 }
 .work .heading span {
@@ -204,6 +218,7 @@ header .navbar ul li a:hover{
   gap: 1.5rem;
   margin: 2rem auto;
   max-width: 1200px;
+  justify-content: center; /* THIS IS THE FIX FOR CENTERING */
 }
 .work .box-container .box {
   flex: 1 1 30rem;
@@ -319,9 +334,6 @@ header .navbar ul li a:hover{
   }
   section{
     padding: 2rem;
-  }
-  .work .box-container{
-    margin: 2rem 0;
   }
 }
 /* common media queries ends*/

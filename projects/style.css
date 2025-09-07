@@ -70,10 +70,15 @@ header .logo{
   font-weight: 800;
   text-decoration: none;
   color: #0E2431;
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
 }
-header .logo i {
-  font-size: 2.2rem;
+
+header .logo span:last-child {
+    font-size: 2.4rem;
 }
+
 header .logo:hover {
   color: #fc8c05;
 }
@@ -108,6 +113,16 @@ header .navbar ul li a:hover{
   color: rgb(24, 2, 63);
   display: none;
 }
+
+@media (max-width: 992px) {
+    header {
+        padding: 1.7rem 5%;
+    }
+    header .logo span:last-child {
+        font-size: 2rem;
+    }
+}
+
 @media(max-width:768px){
   #menu{
       display: block;
@@ -161,8 +176,7 @@ header .navbar ul li a:hover{
 }
 .work h2 {
   color: #fff;
-  padding: 1rem;
-  padding-top: 7rem; /* Added padding to push heading down from navbar */
+  padding-top: 8rem;
   padding-bottom: 2rem;
 }
 .work .heading span {
@@ -187,7 +201,7 @@ header .navbar ul li a:hover{
   border-radius: 3px;
   cursor: pointer;
   font-weight: 500;
-  box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.2); /* Softened shadow */
+  box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.2);
 }
 .work .button-group .btn:hover{
   background-color: #fff;
@@ -202,8 +216,9 @@ header .navbar ul li a:hover{
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
-  margin: 2rem auto; /* Centered the container */
-  max-width: 1200px; /* Added max-width for large screens */
+  margin: 2rem auto;
+  max-width: 1200px;
+  justify-content: center; /* THIS IS THE FIX FOR CENTERING */
 }
 .work .box-container .box {
   flex: 1 1 30rem;
@@ -277,7 +292,7 @@ header .navbar ul li a:hover{
 .backbtn{
   display: flex;
   justify-content: center;
-  margin: 4rem 0 2rem 0; /* Adjusted margin */
+  margin: 4rem 0 2rem 0;
 }
 .backbtn .btn {
   position: relative;
@@ -319,9 +334,6 @@ header .navbar ul li a:hover{
   }
   section{
     padding: 2rem;
-  }
-  .work .box-container{
-    margin: 2rem 0;
   }
 }
 /* common media queries ends*/
