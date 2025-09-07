@@ -91,12 +91,11 @@ header .logo {
   font-weight: 800;
   text-decoration: none;
   color: #0e2431;
-  display: flex; /* Use flexbox for alignment */
+  display: flex; 
   align-items: center;
-  gap: 0.8rem; /* Space between icon and text */
+  gap: 0.8rem;
 }
 
-/* Styling for the text part of the logo */
 header .logo span:last-child {
     font-size: 2.4rem;
 }
@@ -137,16 +136,14 @@ header .navbar ul li a:hover {
   display: none;
 }
 
+/* FIXED: Changed breakpoint to 992px to collapse navbar on tablets */
 @media (max-width: 992px) {
-    header {
-        padding: 1.7rem 5%; /* Reduce padding on tablets */
-    }
-    header .logo span:last-child {
-        font-size: 2rem; /* Reduce font size */
-    }
-}
-
-@media (max-width: 768px) {
+  header {
+    padding: 1.7rem 5%;
+  }
+  header .logo span:last-child {
+      font-size: 2rem;
+  }
   #menu {
     display: block;
   }
@@ -190,6 +187,10 @@ header .navbar ul li a:hover {
   }
   header .navbar.nav-toggle {
     right: 0;
+  }
+  /* FIXED: Added margin-top to About Me button on smaller screens */
+  .home .content .btn {
+      margin-top: 4rem;
   }
 }
 /* hamburger icon ends */
@@ -259,6 +260,7 @@ header .navbar ul li a:hover {
   font-weight: 600;
   padding: 1rem 0;
 }
+/* FIXED: Removed position: absolute to allow margin-top to work correctly */
 .home .btn {
   margin-top: 1rem;
   line-height: 0;
@@ -374,21 +376,21 @@ header .navbar ul li a:hover {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 8rem; /* Creates space between image and text on desktop */
+  gap: 8rem; 
   max-width: 1200px; 
   width: 100%;
-  margin: 6rem auto 0 auto; /* Pushes the content down from the heading */
+  margin: 6rem auto 0 auto; 
 }
 
 .about .row .image {
-  flex: 1 1 32rem; /* Allows image container to grow/shrink */
+  flex: 1 1 32rem;
   display: flex;
   justify-content: center;
 }
 
 .about .row .image img {
   width: 100%;
-  max-width: 35rem; /* Prevents image from becoming too large */
+  max-width: 35rem; 
   height: auto;
   border-radius: 15px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
@@ -402,7 +404,7 @@ header .navbar ul li a:hover {
 }
 
 .about .row .content {
-  flex: 1 1 50rem; /* Allows content to take more space */
+  flex: 1 1 50rem; 
   display: flex;
   flex-direction: column;
 }
@@ -494,13 +496,12 @@ header .navbar ul li a:hover {
   transform: translateY(-3px);
 }
 
-/* --- Responsive Media Queries for About Section --- */
 @media screen and (max-width: 992px) {
   .about .heading {
     margin-bottom: 2rem;
   }
   .about .row {
-    flex-direction: column; /* Stack image and content vertically */
+    flex-direction: column; 
     align-items: center;
     text-align: center;
     gap: 3rem;
@@ -513,11 +514,11 @@ header .navbar ul li a:hover {
   .about .row .content > p {
     flex-grow: 0;
     margin-bottom: 3rem;
-    text-align: center; /* Center paragraph on mobile */
+    text-align: center; 
     text-align-last: center;
   }
   .about .contact-resume-wrapper {
-    align-items: center; /* Center the contact info and resume button */
+    align-items: center; 
   }
 }
 
@@ -609,7 +610,6 @@ header .navbar ul li a:hover {
   animation: float1 21s infinite ease-in-out;
 }
 
-/* Media query for background icons on mobile */
 @media screen and (max-width: 768px) {
   .background-icons i {
     font-size: 8rem; 
@@ -643,7 +643,7 @@ header .navbar ul li a:hover {
   100% { transform: translate(0, 0) rotate(-5deg); }
 }
 
-/* ===== REVISED SKILLS SECTION STARTS ===== */
+/* skills section starts */
 .skills {
   min-height: 90vh;
   background: linear-gradient(to bottom, #57059e, #4a00e0);
@@ -665,7 +665,6 @@ header .navbar ul li a:hover {
 }
 .skills .container .row {
   display: grid;
-  /* Default for desktop */
   grid-template-columns: repeat(6, 1fr);
   gap: 1.8rem;
 }
@@ -698,19 +697,16 @@ header .navbar ul li a:hover {
   margin-left: 0.5rem;
 }
 
-/* Responsive media queries for skills grid */
 @media screen and (max-width: 1200px) {
   .skills .container .row {
-    grid-template-columns: repeat(4, 1fr); /* 4 columns for laptops/large tablets */
+    grid-template-columns: repeat(4, 1fr);
   }
 }
-
 @media screen and (max-width: 768px) {
   .skills .container .row {
-    grid-template-columns: repeat(3, 1fr); /* 3 columns for tablets */
+    grid-template-columns: repeat(3, 1fr);
   }
 }
-
 @media screen and (max-width: 600px) {
   .skills .container {
     padding: 0;
@@ -719,13 +715,13 @@ header .navbar ul li a:hover {
     margin-top: 5px;
   }
   .skills .container .row {
-    grid-template-columns: repeat(2, 1fr); /* 2 columns for phones */
+    grid-template-columns: repeat(2, 1fr);
     margin: 1rem;
     padding: 2rem 0.2rem;
     gap: 1rem;
   }
 }
-/* ===== REVISED SKILLS SECTION ENDS ===== */
+/* skills section ends */
 
 /* education section starts */
 .education {
@@ -803,7 +799,6 @@ header .navbar ul li a:hover {
   font-weight: 700;
 }
 
-/* education media queries starts*/
 @media screen and (max-width: 600px) {
   .education .box-container .box {
     flex-direction: column;
@@ -831,7 +826,6 @@ header .navbar ul li a:hover {
     flex-wrap: wrap;
   }
 }
-/* education media queries ends*/
 /* education section ends */
 
 /* work section starts */
@@ -1129,7 +1123,7 @@ header .navbar ul li a:hover {
   width: 100%;
   background: #fff;
   border-radius: 1.5rem;
-  margin: 2rem 5rem;
+  margin: 2rem auto;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
 }
 .contact .container .content {
