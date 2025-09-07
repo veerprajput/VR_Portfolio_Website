@@ -65,20 +65,20 @@ section{
 .heading span{
   color: rgb(115, 3, 167);
 }
-header .logo{
-  font-size: 1.9rem;
+header .logo {
   font-weight: 800;
   text-decoration: none;
-  color: #0E2431;
-  display: flex;
+  color: #0e2431;
+  display: flex; 
   align-items: center;
   gap: 0.8rem;
 }
-
+header .logo .mdi {
+  font-size: 40px;
+}
 header .logo span:last-child {
     font-size: 2.4rem;
 }
-
 header .logo:hover {
   color: #fc8c05;
 }
@@ -116,12 +116,12 @@ header .navbar ul li a:hover{
 
 /* FIXED: Breakpoint changed to 992px */
 @media(max-width:992px){
-    header {
-        padding: 1.7rem 5%;
-    }
-    header .logo span:last-child {
-        font-size: 2rem;
-    }
+  header {
+      padding: 1.7rem 5%;
+  }
+  header .logo span:last-child {
+      font-size: 2rem;
+  }
   #menu{
       display: block;
   }
@@ -211,18 +211,18 @@ header .navbar ul li a:hover{
   color: #000;
 }
 
+/* FIXED: This rule now correctly centers items and allows for 5 cards per row */
 .work .box-container {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
   margin: 2rem auto;
-  max-width: 1200px;
-  /* FIXED: This centers the items and fixes the skew */
+  max-width: 1400px; /* Increased max-width to fit 5 cards */
   justify-content: center; 
 }
 .work .box-container .box {
-  /* FIXED: Changed flex-basis to 20rem to allow 5 cards per row on desktop */
-  flex: 1 1 20rem;
+  flex: 1 1 22rem; /* Adjusted flex-basis for better spacing */
+  max-width: 24rem; /* Added max-width to control size */
   border-radius: 0.5rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   position: relative;
