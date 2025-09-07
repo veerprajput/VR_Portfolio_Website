@@ -157,12 +157,13 @@ header .navbar ul li a:hover{
 
 /* work section starts */
 .work {
-  /* background: #010124; */
   background: linear-gradient(to bottom, #000031, #00002c);
 }
 .work h2 {
   color: #fff;
   padding: 1rem;
+  padding-top: 7rem; /* Added padding to push heading down from navbar */
+  padding-bottom: 2rem;
 }
 .work .heading span {
   color: rgb(255, 230, 0);
@@ -186,7 +187,7 @@ header .navbar ul li a:hover{
   border-radius: 3px;
   cursor: pointer;
   font-weight: 500;
-  box-shadow: 0px 5px 10px white;
+  box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.2); /* Softened shadow */
 }
 .work .button-group .btn:hover{
   background-color: #fff;
@@ -201,7 +202,8 @@ header .navbar ul li a:hover{
   display: flex;
   flex-wrap: wrap;
   gap: 1.5rem;
-  margin: 2rem;
+  margin: 2rem auto; /* Centered the container */
+  max-width: 1200px; /* Added max-width for large screens */
 }
 .work .box-container .box {
   flex: 1 1 30rem;
@@ -270,58 +272,12 @@ header .navbar ul li a:hover{
 .work .desc .btns .btn:hover {
   background: #310ae0f5;
 }
-.work .viewall {
-  display: flex;
-  justify-content: center;
-}
-.work .viewall .btn {
-  position: relative;
-  line-height: 0;
-  padding: 1.6rem 3rem;
-  border-radius: 0.5em;
-  transition: 0.5s;
-  color: rgb(255, 255, 255);
-  font-weight: 700;
-  border: 2px solid #fff;
-  box-shadow: 0px 5px 10px rgba(65, 84, 241, 0.4);
-  text-align: center;
-}
-.work .viewall .btn span {
-  font-weight: 600;
-  font-size: 1.7rem;
-  font-family: "Nunito", sans-serif;
-}
-.work .viewall .btn i {
-  margin-left: 0.3rem;
-  font-size: 1.5rem;
-  transition: 0.3s;
-}
-.work .viewall .btn:hover {
-  background: #fff;
-  color: #000;
-}
-.work .viewall .btn:hover i {
-  transform: translateX(5px);
-}
-
-@media screen and (max-width: 450px) {
-  .work .button-group{
-    width: 100%;
-  }
-  .work .box-container{
-    margin: 0rem;
-  }
-  .work .box-container .grid-item .box{
-    width: 95% !important;
-  }
-}
 
 /* back to home button */
 .backbtn{
   display: flex;
   justify-content: center;
-  margin-bottom: 2rem;
-  margin-top: 4rem;
+  margin: 4rem 0 2rem 0; /* Adjusted margin */
 }
 .backbtn .btn {
   position: relative;
@@ -364,44 +320,11 @@ header .navbar ul li a:hover{
   section{
     padding: 2rem;
   }
+  .work .box-container{
+    margin: 2rem 0;
+  }
 }
 /* common media queries ends*/
-.morebtn{
-  display: flex;
-  justify-content: center;
-  margin-bottom: 2rem;
-}
-.morebtn .btn {
-  position: relative;
-  line-height: 0;
-  padding: 1.6rem 3rem;
-  border-radius: .5em;
-  transition: 0.5s;
-  color: #fff;
-  background-color: #010124;
-  /* box-shadow: 0px 5px 10px rgba(48, 68, 247, .6); */
-  box-shadow: 0px 5px 10px white;
-  text-align: center;
-}
-.morebtn .btn span {
-  font-weight: 600;
-  font-size: 1.7rem;
-  font-family: 'Nunito', sans-serif;
-}
-.morebtn .btn i {
-  margin-right: 0.5rem;
-  font-size: 1.5rem;
-  transition: 0.3s;
-}
-.morebtn .btn:hover{
-  background: white;
-  color: #010124;
-}
-.morebtn .btn:hover i {
-  transform: translateX(-8px);
-}
-
-
 
 /* scroll top starts */
 #scroll-top{
