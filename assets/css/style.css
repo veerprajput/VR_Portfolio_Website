@@ -344,7 +344,8 @@ header .navbar ul li a:hover {
 /* hero media queries ends*/
 /* hero section end */
 
-/* about section starts */
+
+/* ===== ABOUT SECTION REVISED STARTS ===== */
 .about {
   background: #f7f7f7;
   padding: 2rem 2rem 8rem 2rem;
@@ -356,23 +357,24 @@ header .navbar ul li a:hover {
 
 .about .row {
   display: flex;
-  align-items: stretch;
+  align-items: center;
   justify-content: center;
-  gap: 12rem;
+  flex-wrap: wrap;
+  gap: 8rem; /* Creates space between image and text on desktop */
   max-width: 1200px; 
   width: 100%;
-  margin: 0 auto;
+  margin: 6rem auto 0 auto; /* Pushes the content down from the heading */
 }
 
 .about .row .image {
-  flex-basis: 32rem;
-  flex-shrink: 0;
+  flex: 1 1 32rem; /* Allows image container to grow/shrink */
   display: flex;
-  align-items: center;
+  justify-content: center;
 }
 
 .about .row .image img {
   width: 100%;
+  max-width: 35rem; /* Prevents image from becoming too large */
   height: auto;
   border-radius: 15px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
@@ -386,7 +388,7 @@ header .navbar ul li a:hover {
 }
 
 .about .row .content {
-  flex: 1;
+  flex: 1 1 50rem; /* Allows content to take more space */
   display: flex;
   flex-direction: column;
 }
@@ -418,22 +420,18 @@ header .navbar ul li a:hover {
   hyphens: auto;
 }
 
-/* Wrapper for contact info and resume button */
 .about .contact-resume-wrapper {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  /* KEY CHANGE: Increased space between contact info block and button */
-  gap: 3.5rem; /* Was 2.5rem */
+  gap: 3.5rem; 
   margin-top: 2rem;
 }
 
-/* The contact info block */
 .about .contact-info {
   display: flex;
   flex-direction: column;
-  /* KEY CHANGE: Increased space between email and location */
-  gap: 2rem; /* Was 1.5rem */
+  gap: 2rem;
   font-family: "Nunito", sans-serif;
   font-weight: 600;
 }
@@ -452,7 +450,6 @@ header .navbar ul li a:hover {
   font-size: 2rem;
 }
 
-/* The Resume Button */
 .resumebtn {
   margin: 0;
 }
@@ -483,13 +480,17 @@ header .navbar ul li a:hover {
   transform: translateY(-3px);
 }
 
-/* --- Responsive Media Queries --- */
+/* --- Responsive Media Queries for About Section --- */
 @media screen and (max-width: 992px) {
+  .about .heading {
+    margin-bottom: 2rem;
+  }
   .about .row {
-    flex-direction: column;
+    flex-direction: column; /* Stack image and content vertically */
     align-items: center;
     text-align: center;
     gap: 3rem;
+    margin-top: 3rem;
   }
   .about .row .image {
     flex-basis: auto;
@@ -498,10 +499,11 @@ header .navbar ul li a:hover {
   .about .row .content > p {
     flex-grow: 0;
     margin-bottom: 3rem;
-    text-align: center; /* Adjust for centered layout on mobile */
+    text-align: center; /* Center paragraph on mobile */
+    text-align-last: center;
   }
   .about .contact-resume-wrapper {
-    align-items: center;
+    align-items: center; /* Center the contact info and resume button */
   }
 }
 
@@ -517,7 +519,6 @@ header .navbar ul li a:hover {
     font-size: 3.2rem;
   }
 }
-/* about section ends */
 
 /* --- Background Icons for About Section --- */
 .about {
@@ -594,6 +595,22 @@ header .navbar ul li a:hover {
   animation: float1 21s infinite ease-in-out;
 }
 
+/* Media query for background icons on mobile */
+@media screen and (max-width: 768px) {
+  .background-icons i {
+    font-size: 8rem; /* Make icons smaller on mobile */
+    opacity: 0.25; /* Make them more transparent */
+  }
+  .background-icons .fa-python { top: 5%; left: 5%; }
+  .background-icons .fa-react { top: 15%; right: 10%; font-size: 9rem; }
+  .background-icons .fa-brain { bottom: 30%; right: 15%; font-size: 7rem; }
+  .background-icons .fa-html5 { bottom: 10%; left: 10%; }
+  .background-icons .fa-node-js { display: none; }
+  .background-icons .fa-css3-alt { top: 40%; right: 5%; }
+  .background-icons .fa-laptop-code { bottom: 5%; left: 40%; font-size: 7rem; }
+  .background-icons .fa-database { top: 60%; left: 5%; }
+}
+
 /* --- KEYFRAME ANIMATIONS --- */
 @keyframes float1 {
   0% { transform: translateY(0px) rotate(0deg); }
@@ -612,6 +629,8 @@ header .navbar ul li a:hover {
   75% { transform: translate(10px, 15px) rotate(15deg); }
   100% { transform: translate(0, 0) rotate(-5deg); }
 }
+/* ===== ABOUT SECTION REVISED ENDS ===== */
+
 
 /* skills section starts */
 .skills {
