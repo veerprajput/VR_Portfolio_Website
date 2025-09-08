@@ -206,18 +206,19 @@ header .navbar ul li a:hover{
   color: #000;
 }
 
-/* FIXED: This rule now correctly centers items and allows for 5 large cards per row */
+/* === DYNAMIC GRID CONTAINER === */
 .work .box-container {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap; /* This is key: allows cards to wrap to the next line */
   gap: 1.5rem;
+  justify-content: center; /* This ensures cards are centered in their rows */
   margin: 2rem auto;
-  max-width: 1800px; /* Increased max-width to fit 5 large cards */
-  justify-content: center; 
 }
+
+/* === DYNAMIC GRID CARD === */
 .work .box-container .box {
-  flex: 1 1 30rem; /* Set to the larger, homepage card size */
-  max-width: 32rem; /* Optional: controls max size to prevent stretching too wide */
+  flex: 1 1 30rem; /* This is key: each card tries to be 30rem, but can grow or shrink */
+  max-width: 32rem; /* Prevents cards from getting too wide on large screens */
   border-radius: 0.5rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   position: relative;

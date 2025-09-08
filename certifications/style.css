@@ -46,7 +46,7 @@ header{
   padding: 1.7rem 10%;
   height: 6.5rem;
   background-color: #fff;
-  box-shadow: 0 1px 4px rgba(146,161,176,.3);
+  box-shadow: 0 1px 4px rgba(146,161,76,.3);
 }
 section{
   min-height: 100vh;
@@ -165,7 +165,7 @@ header .navbar ul li a:hover{
 
 /* work section starts */
 .work {
-  background: linear-gradient(to bottom, #57059e, #4a00e0);
+  background: linear-gradient(to bottom, #000031, #00002c);
 }
 .work h2 {
   color: #fff;
@@ -206,18 +206,18 @@ header .navbar ul li a:hover{
   color: #000;
 }
 
-/* FIXED: This rule now correctly centers items and allows for 5 large cards per row */
+/* === GRID CONTAINER FOR PERFECT CENTERING === */
 .work .box-container {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 30rem);
   gap: 1.5rem;
-  margin: 2rem auto;
-  max-width: 1800px; /* Increased max-width to fit 5 large cards */
   justify-content: center;
+  margin: 2rem auto;
 }
+
 .work .box-container .box {
-  flex: 1 1 30rem; /* Set to the larger, homepage card size */
-  max-width: 32rem; /* Optional: controls max size to prevent stretching too wide */
+  /* No flex properties needed anymore */
+  width: 30rem; /* Set a consistent width */
   border-radius: 0.5rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   position: relative;

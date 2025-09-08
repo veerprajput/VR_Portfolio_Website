@@ -78,11 +78,11 @@ function showCertifications(certifications) {
 
     var $grid = $('.box-container').isotope({
         itemSelector: '.grid-item',
-        layoutMode: 'fitRows',
+        layoutMode: 'masonry',
         masonry: {
-            columnWidth: 200
+            isFitWidth: true
         }
-    }); 
+    });
 
     // filter items on button click
     $('.button-group').on('click', 'button', function () {

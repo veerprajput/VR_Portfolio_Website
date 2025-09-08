@@ -448,9 +448,6 @@ header .navbar ul li a:hover {
   transform: translateY(-3px);
 }
 @media screen and (max-width: 992px) {
-  .about .heading {
-    margin-bottom: 2rem;
-  }
   .about .row {
     flex-direction: column; 
     align-items: center;
@@ -600,11 +597,13 @@ header .navbar ul li a:hover {
   border-radius: 1rem;
   padding: 2rem;
   width: 90%;
-  margin: 2rem auto;
+  margin: auto;
+  margin-top: 2rem;
 }
 .skills .container .row {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
+  flex-wrap: wrap;
   gap: 1.8rem;
 }
 .skills .container .bar {
@@ -626,38 +625,36 @@ header .navbar ul li a:hover {
   gap: 1rem;
   margin-top: 1rem;
 }
-.skills .container .bar .info img {
-  height: 4rem;
+.skills .container .bar .info i {
+  font-size: 4rem;
 }
 .skills .container .bar .info span {
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 500;
   font-family: "Poppins";
+  margin-left: 0.5rem;
 }
-
-/* FIXED: iPad skills section alignment */
+/* skills media queries starts*/
 @media screen and (max-width: 992px) {
     .skills .container .row {
         grid-template-columns: repeat(4, 1fr);
     }
 }
-
 @media screen and (max-width: 768px) {
   .skills .container .row {
     grid-template-columns: repeat(3, 1fr);
   }
 }
-
 @media screen and (max-width: 600px) {
   .skills .container {
     padding: 0;
-    margin: 5px 0 0 0;
+    margin: 0;
     width: 100%;
   }
   .skills .container .row {
     grid-template-columns: repeat(2, 1fr);
     margin: 1rem;
-    padding: 2rem 0.2rem;
+    padding: 2rem 0.2rem 2rem 0.2rem;
     gap: 1rem;
   }
 }
@@ -739,28 +736,35 @@ header .navbar ul li a:hover {
   font-weight: 700;
 }
 
-/* FIXED: iPad education image skew */
 @media screen and (max-width: 992px) {
-    .education .box-container .box {
-        align-items: center; /* This vertically centers the image and content */
-    }
-    .education .box-container .box .image {
-        max-height: 25rem; /* Prevents the image container from becoming too tall */
-    }
+  .education .box-container .box {
+    flex-direction: column;
+    width: 90%;
+  }
+  .education .box-container .box .image {
+    width: 100%;
+    height: 25rem;
+    flex-basis: auto;
+  }
+  .education .box-container .box .content {
+    text-align: center;
+  }
+  .education .box-container .box .content h3,
+  .education .box-container .box .content p,
+  .education h4 {
+    text-align: center;
+    margin-left: 0;
+  }
 }
 
 @media screen and (max-width: 600px) {
   .education .box-container .box {
     flex-direction: column;
     width: 100%;
-    align-items: initial; /* Reset alignment for mobile view */
   }
   .education .box-container .box .image {
     width: 100%;
     height: 25rem;
-  }
-  .education .box-container .box img {
-    width: 100%;
   }
   .education .box-container .box .content {
     flex: 0;
@@ -889,6 +893,9 @@ header .navbar ul li a:hover {
 /* work section ends */
 
 /* experience section starts */
+.experience {
+  padding-top: 8rem;
+}
 .experience .timeline {
   position: relative;
   max-width: 1200px;
